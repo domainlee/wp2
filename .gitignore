@@ -6,3 +6,5 @@ node_modules
 package-lock.json
 wp-content/themes/crthemes/node_modules
 wp-content/uploads
+wp-admin
+wp-includes
