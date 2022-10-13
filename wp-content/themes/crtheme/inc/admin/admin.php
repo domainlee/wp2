@@ -48,7 +48,7 @@ class Wi_Admin
     public function init() {
         
         // metabox
-        require_once get_template_directory() . '/inc/admin/framework/metabox/metabox.php';
+//        require_once get_template_directory() . '/inc/admin/framework/metabox/metabox.php';
         
         // TGM
         require_once get_template_directory() . '/inc/admin/framework/tgm.php';
