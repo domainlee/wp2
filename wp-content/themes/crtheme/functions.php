@@ -10,8 +10,6 @@ require_once get_parent_theme_file_path( '/inc/admin/admin.php' );
 //
 //require_once get_parent_theme_file_path( '/inc/support.php' ); // array of things we support to validate
 
-require get_parent_theme_file_path( '/inc/customizer/customizer.php' );
-require get_parent_theme_file_path ( '/inc/customizer/register.php' );
 require_once get_parent_theme_file_path( '/inc/fonts.php' );
 require_once get_parent_theme_file_path( '/inc/google-fonts.php' );
 require_once get_parent_theme_file_path( '/inc/customizer/fonts.php' );

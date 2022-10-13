@@ -238,7 +238,7 @@ class Fox_Register {
             $options[ 'bf_' . $i . '_layout' ] = array(
                 'name'    => 'Displaying as',
                 'type'     => 'select',
-                'options'   => wi_block_array(),
+                'options'   => '',
                 'std'       => 'slider',
                 'prefix'    => false,
             );
@@ -333,7 +333,7 @@ class Fox_Register {
             
             $options[ $ele. '_layout' ] = array(
                 'name'    => 'Select Layout',
-                'options'   => wi_layout_array(),
+                'options'   => '',
                 'type'      => 'radio',
                 
                 'section' => 'layout_'.$ele,
@@ -350,7 +350,7 @@ class Fox_Register {
             
                 $options[ $ele. '_sidebar_state' ] = array(
                     'name'    => 'Sidebar',
-                    'options'   => wi_sidebar_array(),
+                    'options'   => '',
                     'type'      => 'radio',
                     'std'       => 'sidebar-right',
                 );
@@ -361,7 +361,7 @@ class Fox_Register {
         
         $options[ $ele. '_layout' ] = array(
             'name'    => 'Select Layout',
-            'options'   => wi_layout_array(),
+            'options'   => '',
             'type'      => 'radio',
 
             'section' => 'layout_'.$ele,
@@ -373,7 +373,7 @@ class Fox_Register {
 
         $options[ 'single_sidebar_state' ] = array(
             'name'    => 'Sidebar',
-            'options'   => wi_sidebar_array(),
+            'options'   => '',
             'type'      => 'radio',
             'std'       => 'sidebar-right',
             
@@ -384,7 +384,7 @@ class Fox_Register {
         
         $options[ 'page_sidebar_state' ] = array(
             'name'    => 'Sidebar',
-            'options'   => wi_sidebar_array(),
+            'options'   => '',
             'type'      => 'radio',
             'std'       => 'sidebar-right',
             
@@ -1130,7 +1130,7 @@ class Fox_Register {
         
         /* Social
         -------------------------------------------------------------------------------- */
-        $social_arr = wi_social_array();
+        $social_arr = '';
         foreach ($social_arr as $s => $c):
         
         $options[ 'social_'.$s ] = array(
