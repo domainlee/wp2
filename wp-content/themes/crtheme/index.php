@@ -1,9 +1,7 @@
 <?php get_header(); ?>
 
 <?php
-
-global $wp_query;
-$layout = wi_layout();
+    echo 'index';
 ?>
 
 <div class="wi-content">
@@ -13,7 +11,13 @@ $layout = wi_layout();
         <div class="content-area primary" id="primary" role="main">
 
             <div class="theiaStickySidebar">
+                <?php
+                while (have_posts()) :
+                    the_post();
+                    the_content();
 
+                endwhile; // End of the loop.
+                ?>
 
             </div><!-- .theiaStickySidebar -->
 

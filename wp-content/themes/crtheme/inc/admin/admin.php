@@ -174,7 +174,7 @@ class Wi_Admin
         
         $files[] = array(
             'import_file_name'              => 'Fox Classic',
-            'local_import_file'             => DEMO_PATH . "classic/content.xml",
+            'local_import_file'             => DEMO_PATH . "classic/content2.xml",
             'local_import_widget_file'      => DEMO_PATH . "classic/widgets.wie",
             'local_import_customizer_file'  => DEMO_PATH . "classic/customizer.dat",
             'import_preview_image_url'      => DEMO_URL . "classic/preview.jpg",
@@ -328,27 +328,38 @@ class Wi_Admin
     function register_required_plugins (){
         
         $plugins = array (
-            
             array(
-                'name'     				=> 'Contact Form 7', // The plugin name
-                'slug'     				=> 'contact-form-7', // The plugin slug (typically the folder name)
-                'required' 				=> false, // If false, the plugin is only 'recommended' instead of required
+                'name'               => 'Advanced Custom Fields PRO', // The plugin name.
+                'slug'               => 'advanced-custom-fields-pro', // The plugin slug (typically the folder name).
+                'source'             => 'https://crthemes.com/acfpro.zip', // The plugin source.
+                'required'           => true, // If false, the plugin is only 'recommended' instead of required.
+                'version'            => '', // E.g. 1.0.0. If set, the active plugin must be this version or higher. If the plugin version is higher than the plugin version installed, the user will be notified to update the plugin.
+                'force_activation'   => false, // If true, plugin is activated upon theme activation and cannot be deactivated until theme switch.
+                'force_deactivation' => false, // If true, plugin is deactivated upon theme switch, useful for theme-specific plugins.
+                'external_url'       => '', // If set, overrides default API URL and points to an external URL.
+                'is_callable'        => '', // If set, this callable will be be checked for availability to determine if a plugin is active.
             ),
+
+//            array(
+//                'name'     				=> 'Contact Form 7', // The plugin name
+//                'slug'     				=> 'contact-form-7', // The plugin slug (typically the folder name)
+//                'required' 				=> false, // If false, the plugin is only 'recommended' instead of required
+//            ),
             
             /**
              * since 2.9
              */
-            array(
-                'name'     				=> 'Post Views Counter', // The plugin name
-                'slug'     				=> 'post-views-counter', // The plugin slug (typically the folder name)
-                'required' 				=> false, // If false, the plugin is only 'recommended' instead of required
-            ),
-            
-            array(
-                'name'     				=> 'Mailchimp for WP', // The plugin name
-                'slug'     				=> 'mailchimp-for-wp', // The plugin slug (typically the folder name)
-                'required' 				=> false, // If false, the plugin is only 'recommended' instead of required
-            ),
+//            array(
+//                'name'     				=> 'Post Views Counter', // The plugin name
+//                'slug'     				=> 'post-views-counter', // The plugin slug (typically the folder name)
+//                'required' 				=> false, // If false, the plugin is only 'recommended' instead of required
+//            ),
+//
+//            array(
+//                'name'     				=> 'Mailchimp for WP', // The plugin name
+//                'slug'     				=> 'mailchimp-for-wp', // The plugin slug (typically the folder name)
+//                'required' 				=> false, // If false, the plugin is only 'recommended' instead of required
+//            ),
             
         );
 
@@ -417,7 +428,7 @@ class Wi_Admin
         wp_enqueue_style( 'wi-admin', get_template_directory_uri() . '/css/admin.css', array( 'wp-color-picker', 'wp-mediaelement' ) );
         
         // admin javascript
-        wp_enqueue_script( 'wi-admin', get_template_directory_uri() . '/js/admin.js', array( 'wp-color-picker', 'wp-mediaelement' ), '20160326', true );
+//        wp_enqueue_script( 'wi-admin', get_template_directory_uri() . '/js/admin.js', array( 'wp-color-picker', 'wp-mediaelement' ), '20160326', true );
         
         // localize javascript
         $jsdata = apply_filters( 'wiadminjs', array() );

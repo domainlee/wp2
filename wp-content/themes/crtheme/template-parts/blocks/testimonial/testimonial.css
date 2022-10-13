@@ -1,0 +1,9 @@
+.testimonial {
+    display: flex;
+}
+.testimonial__left {
+    width: 50%;
+}
+.testimonial__right {
+    width: 50%;
+}

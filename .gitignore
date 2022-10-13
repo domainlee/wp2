@@ -1,0 +1,8 @@
+.idea
+.idea/*
+.DS_Store
+*/.DS_Store
+node_modules
+package-lock.json
+wp-content/themes/crthemes/node_modules
+wp-content/uploads
