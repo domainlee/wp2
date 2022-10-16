@@ -12,7 +12,33 @@ require_once get_parent_theme_file_path( '/inc/admin/admin.php' );
 
 require_once get_parent_theme_file_path( '/inc/fonts.php' );
 require_once get_parent_theme_file_path( '/inc/google-fonts.php' );
-require_once get_parent_theme_file_path( '/inc/customizer/fonts.php' );
+
+
+
+/**
+ * Register and Enqueue Styles.
+ *
+ * @since Twenty Twenty 1.0
+ */
+function register_styles() {
+    wp_register_style('main', get_template_directory_uri() . '/assets/build/css/main.min.css', array(), '1.1', 'all');
+    wp_enqueue_style('main'); // Enqueue it!
+}
+
+add_action( 'wp_enqueue_scripts', 'register_styles' );
+
+/**
+ * Register and Enqueue Scripts.
+ *
+ * @since Twenty Twenty 1.0
+ */
+function register_scripts() {
+    wp_register_script('crthemes-js', get_template_directory_uri() . '/assets/build/js/main.bundle.js', array('jquery'), '1.0.1', true); // Custom scripts
+    wp_enqueue_script('crthemes-js'); // Enqueue it!
+}
+
+add_action( 'wp_enqueue_scripts', 'register_scripts' );
+
 
 /* One click import demo
  * @since 3.0
