@@ -1,0 +1,478 @@
+// target: iPhone 6, 7, 8, X portrait
+@media (max-width: 479px) {
+    
+    /* TYPOGRAPHY
+    ---------------------------- */
+    body {
+        font-size: 14px; /* 0.875em compared with desktop size */
+    }
+    /* factor 0.7em from h1 - h6 */
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px; /* 0.7*32 */
+    }
+    h3 {
+        font-size: 18px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    h5 {
+        font-size: 13px;
+    }
+    h6 {
+        font-size: 10px;
+    }
+    
+    p,
+    ul,
+    ol {
+        margin-bottom: 18px;
+    }
+    
+    .offcanvas-nav .menu > ul > li > a {
+        font-size: 18px;
+    }
+    
+    /* COMMON ELEMENTS
+    ---------------------------- */
+    .alignleft, a img.alignleft,
+    .alignright, a img.alignright {
+        float: none;
+        display: block;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    .wp-caption.alignright,
+    .wp-caption.alignleft {
+        margin-left: 0;
+        margin-right: 0;
+        text-align: left;
+    }
+    blockquote {
+        font-size: 1.3em;
+    }
+    
+    blockquote {
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1.2em;
+    }
+    
+    .post-thumbnail,
+    .grid-thumbnail,
+    .masonry-thumbnail,
+    .article-big .post-item-thumbnail {
+        // to make it full screen width
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+    .has-thumbnail .big-meta {
+        padding-left: 6px;
+    }
+    
+    /* CAROUSEL & SLIDER
+    ---------------------------- */
+    .slick-item img {
+        height: 180px;
+    }
+    .thumbnail-gallery .flex-direction-nav a {
+        border-width: 2px;
+        line-height: 32px;
+    }
+    .slide .slide-caption {
+        padding: 3px 6px;
+        line-height: 1.4;
+    }
+    
+    /* PAGE LAYOUT / PRIMARY / SIDEBAR
+    ---------------------------- */
+    
+    /* TITLES
+    ---------------------------- */
+    .archive-title {
+        font-size: 32px; /* .4em */
+    }
+    .page-subtitle {
+        font-size: 1.1em
+    }
+    .title-area {
+        border: none;
+    }
+    
+    /* HEADERS
+    ---------------------------- */
+    #wi-header {
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+    
+    .slogan {
+        letter-spacing: 1px !important;
+        font-size: 10px;
+    }
+    
+    /* FOOTER
+    ---------------------------- */
+    // Footer widgets
+    
+    // Footer bottom
+    #footer-logo {
+        margin-bottom: 20px;
+    }
+    #footer-logo,
+    #footer-social {
+        margin-top: 14px;
+    }
+    .copyright {
+        padding: 0;
+        margin-top: 14px;
+    }
+    #footernav {
+        letter-spacing: 1px;
+    }
+    #footer-bottom {
+        padding: 30px 0;
+    }
+    
+    /* 13 - Featured Slider
+    ---------------------------- */
+    .slider-title {
+        font-size: 20px; /* 50% */
+        line-height: 1.1;
+    }
+    .blog-slider .flex-direction-nav a {
+        letter-spacing: 1px;
+    }
+    
+    /* 14 - Section
+    ---------------------------- */
+    .section-heading {
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .section-heading .viewall {
+        display: block;
+        position: static;
+        text-align: right;
+    }
+    
+    /* 15 - Big post
+    ---------------------------- */
+    .big-title {
+        font-size: 1.8em;
+        padding-top: 15px;
+        margin-bottom: 12px;
+    }
+    .big-content {
+        font-size: 1em;
+    }
+    
+    /* 16 - Standard Blog
+    ---------------------------- */
+    .post-title {
+        font-size: 24px;
+        margin-bottom: 6px;
+    }
+    
+    .post-thumbnail,
+    .post-header {
+        margin-bottom: 24px;
+    }
+    
+        /* share */
+    .post-share ul li,
+    .post-share.share-4 ul li,
+    .post-share.share-3 ul li,
+    .post-share.share-6 ul li,
+    .post-share.share-2 ul li {
+        float: none;
+        margin-bottom: 4px;
+        width: 100%;
+    }
+    
+        /* content */
+    .enable-2-columns:not(.woocommerce):not(.woocommerce-page) .entry-content {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+        text-align: left;
+    }
+    
+        /* related area */
+    .related-area {
+        padding-top: 32px;
+    }
+    .blog-related-heading {
+        font-size: 16px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .related-thumbnail {
+        width: 100%;
+    }
+    .blog-related .line {
+        display: none;
+    }
+    .related-excerpt {
+        display: none;
+    }
+    
+    /* 17 - Blog masonry
+    ---------------------------- */
+        /* all-> 1 column */
+    .blog-masonry {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+    .post-masonry {
+        width: 100% !important;
+    }
+    .masonry-title {
+        font-size: 24px; /* .75em */
+    }
+    .masonry-title a {
+        font-size: 1em !important;
+    }
+    
+    /* 18 - Blog Newspaper
+    ---------------------------- */
+    .newspaper-title {
+        font-size: 24px;
+        margin-bottom: 8px;
+    }
+    .enable-2-columns:not(.woocommerce):not(.woocommerce-page) .entry-content {
+        @include column-count (1);
+        text-align: left;
+    }
+    .newspaper-content p {
+        margin-bottom: 20px;
+    }
+        
+        /* related posts */
+    .newspaper-related-heading {
+        letter-spacing: 1px;
+        font-weight: normal;
+    }
+    .newspaper-related {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-newspaper .post-related {
+        float: none;
+        width: 100%;
+        padding: 0;
+        margin-top: 16px;
+    }
+    .post-newspaper .post-related:first-child {
+        margin-top: 0;
+    }
+    .post-newspaper .related-thumbnail {
+        width: 72px;
+        float: left;
+        margin: 0 20px 0 0;
+    }
+    
+    
+    /* 19 - Blog Grid
+    ---------------------------- */
+        /* all -> 1 column */
+    .blog-grid {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .blog-grid .post-grid {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100% !important;
+    }
+    .grid-thumbnail {
+        margin-bottom: 10px;
+    }
+    .grid-title {
+        font-size: 24px;
+    }
+    .grid-title a {
+        font-size: 1em !important;
+    }
+    
+    /* 20 - Blog List
+    ---------------------------- */
+    .post-list,
+    .post-list:first-child {
+        padding-top: 24px;
+    }
+    .post-list:before,
+    .post-list:first-child:before {
+        display: block;
+    }
+    .list-thumbnail {
+        width: auto;
+        clear: both;
+        float: none;
+        margin: 0 -20px 1em; /* to make it fullscreen */
+    }
+    .post-list .post-body {
+        overflow: visible;
+    }
+    
+    /* Vertical Post
+    ---------------------------- */
+    .post-vertical {
+        display: block;
+    }
+    .vertical-thumbnail {
+        width: auto;
+        padding: 0;
+        margin: 0 -20px 1em; /* to make it fullscreen */
+    }
+    
+    /* Blog Group
+    ---------------------------- */
+    .article-big .post-item-text {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .article-big .post-item-title {
+        font-size: 1.6em;
+    }
+    
+    /* 21 - Pagination
+    ---------------------------- */
+    .wi-pagination {
+        padding: 18px 0 10px;
+    }
+    .pagination-inner {
+        padding-left: 10px;
+        padding-right: 10px;
+        letter-spacing: 2px;
+        border-width: 1px;
+    }
+    
+    /* 22 - Single post
+    ---------------------------- */
+    
+        /* related */
+    .related-heading, .comments-title, #reply-title {
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: 1px;
+    }
+    .related-list.column-3 .post-grid {
+        padding-bottom: 16px;
+    }
+    
+        /* authorbox */
+    .authorbox .author-avatar {
+        width: 90px;
+        height: 90px;
+        float: none;
+        clear: both;
+        margin: 0 auto 24px;
+    }
+    .authorbox-nav ul li {
+        margin: 0;
+        width: 50%;
+        text-align: center;
+    }
+    .authorbox-content .desc {
+        text-align: center;
+    }
+    .author-social ul {
+        display: inline-block;
+    }
+    .author-social {
+        text-align: center;
+        line-height: 1;
+        float: none;
+    }
+    .author-social ul li a {
+        height: 28px;
+        width: 28px;
+        font-size: 16px;
+    }
+    
+        /* navigation */
+    .post-nav .container {
+        padding: 24px 0;
+    }
+    .post-navigation .nav-links .nav-previous,
+    .post-navigation .nav-links .nav-next {
+        width: 100%;
+        float: none;
+        text-align: center;
+        padding: 10px 0;
+    }
+    .post-navigation .post-title {
+        font-size: 22px;
+    }
+    
+        /* same category */
+    #posts-small-heading span {
+        letter-spacing: 2px;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    #posts-small {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-small {
+        padding: 10px;
+        clear: both;
+        width: 100%;
+        float: none;
+        padding: 0;
+        margin-top: 20px;
+    }
+    
+        /* comment */
+    .commentlist .comment-author img {
+        margin-right: 15px;
+    }
+    .comment-content, 
+    .comment-metadata, 
+    .comment .reply {
+        padding-left: 55px;
+    }
+    .comment-metadata .edit-link {
+        margin-left: 8px;
+    }
+    
+    /* 23 - Widgets
+    ---------------------------- */
+    .textwidget {
+        font-size: 1em;
+    }
+    
+    /* 24 - Contact form 7
+    ---------------------------- */
+    
+    /* 25 - Footer
+    ---------------------------- */
+    
+    /* 26 - Disable lines CSS
+    ---------------------------- */
+    .disable-hand-lines #posts-small-heading {
+        top: -3px;
+    }
+    
+    /* WOOCOMMERCE
+    ---------------------------- */
+    .woocommerce-page.columns-4 ul.products li.product, 
+    .woocommerce.columns-4 ul.products li.product,
+    .woocommerce-page.columns-3 ul.products li.product, 
+    .woocommerce.columns-3 ul.products li.product,
+    .woocommerce-page.columns-2 ul.products li.product, 
+    .woocommerce.columns-2 ul.products li.product {
+        width: 100%;
+    }
+    #coupon_code,
+    .woocommerce table.cart td.actions .coupon .button {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+}

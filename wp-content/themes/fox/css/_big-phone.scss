@@ -1,0 +1,572 @@
+// target: 480px phone, 414px phone, iphone 6, 6s.. horizontal
+// note that iphone 6, 7, 8 horizontal are all 667px wide (very wide)
+@media (max-width: 767px) {
+    
+    // a general class for things will be hidden from this screen width
+    .hide_on_mobile {
+        display: none;
+    }
+    
+    /* container */
+    .container {
+        width: calc(100% - 40px);
+    }
+    .gallery {
+    }
+    .gallery-item {
+    }
+    
+    /* 7 - Slick carousel
+    ---------------------------- */
+    .slick-item img {
+        height: 230px;
+    }
+    .wi-slick .slick-nav {
+        display: none !important;
+    }
+    
+    /* 8 - Flexslider
+    ---------------------------- */
+    .slide .slide-caption {
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+        transform: translateY(0);
+        background: rgba(0,0,0,.7);
+        color: #fff;
+        padding-left: 6px;
+        padding-right: 6px;
+    }
+    .thumbnail-gallery .flex-direction-nav a {
+        width: 36px;
+        height: 36px;
+        line-height: 32px;
+    }
+    .thumbnail-gallery .flex-direction-nav a:before {
+        font-size: 16px;
+        line-height: inherit;
+    }
+    
+    /* 9 Layout
+    ---------------------------- */
+    #primary {
+        padding-top: 0;
+        padding-bottom: 20px;
+    }
+    #secondary {
+        padding-bottom: 20px;
+    }
+    .has-sidebar #secondary .widget-area .widget {
+        float: none;
+        width: 100%;
+    }
+    
+    /* 10 - Title
+    ---------------------------- */
+    .page-title {
+        font-size: 42px; /* 0.6 */
+    }
+    #titlebar {
+        margin-bottom: 24px;
+    }
+    .archive-title {
+        font-size: 48px; /* 0.6em */
+    }
+    
+    /* 11 - Header
+    ---------------------------- */
+    .header-inline #wi-logo img {
+        width: auto;
+        max-height: 36px;
+    }
+    
+    .toggle-menu {
+        padding: 11px 7px 5px;
+        span {
+        }
+        span + span {
+        }
+    }
+    
+    #wi-header {
+        margin-bottom: 0;
+    }
+    
+    .slogan {
+        letter-spacing: 2px !important;
+    }
+    
+    /* 12 - Menu
+    ---------------------------- */
+    
+    /* 13 - Featured Slider
+    ---------------------------- */
+        /* navi */
+    .blog-slider {
+        padding-top: 24px;
+        min-height: 150px;
+    }
+    .blog-slider .flex-direction-nav {
+        top: -24px;
+    }
+    .blog-slider .flex-direction-nav a {
+        letter-spacing: 3px;
+    }
+    
+        /* details */
+    .slider-header {
+        padding-left: 0;
+    }
+    .slider-cell {
+        vertical-align: bottom;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .slider-title {
+        font-size: 32px;
+        line-height: 1.3;
+    }
+    .slider-title a {
+        padding: 0 8px;
+    }
+    .slider-excerpt {
+        display: none;
+    }
+    
+    /* 14 - Section
+    ---------------------------- */
+    .section-heading {
+        font-size: 40px; /* 0.5em */
+        text-align: left;
+        letter-spacing: 0;
+    }
+    .section-heading .viewall {
+        top: 5px;
+    }
+    
+    /* 15 - Big post
+    ---------------------------- */
+    .big-meta,
+    .has-thumbnail .big-meta {
+        font-size: 12px;
+        letter-spacing: 2px;
+        height: 20px;
+        line-height: 20px;
+        top: -20px;
+    }
+    .big-title {
+        font-size: 30px; /* .5em */
+    }
+    .big-content {
+        font-size: 1.1em;
+    }
+    .post-big .post-thumbnail .post-thumbnail-caption {
+        display: none;
+    }
+    
+    /* 16 - Standard Blog
+    ---------------------------- */
+    .wi-post {
+        padding-top: 30px;
+    }
+    .wi-post:first-child {
+        padding-top: 0;
+    }
+    .post-thumbnail,
+    .post-header {
+        margin-bottom: 32px;
+    }
+    .post-title {
+        font-size: 31px; /* .6em */
+    }
+    .post-header-meta {
+        font-size: .9em;
+    }
+    .wi-dropcap,
+    .enable-dropcap .dropcap-content:first-letter {
+        font-size: 3em;
+        margin: 5px 12px 6px 0;
+    }
+    .enable-dropcap .small-dropcap-content:first-letter {
+        font-size: 1.6em;
+    }
+    .wi-dropcap.dropcap-dark,
+    .dropcap-style-dark .enable-dropcap .dropcap-content:first-letter,
+    .wi-dropcap.dropcap-color,
+    .dropcap-style-color .enable-dropcap .dropcap-content:first-letter {
+        font-size: 1.6em;
+        width: 34px;
+        height: 34px;
+        line-height: 20px;
+        padding: 7px;   
+    }
+    .enable-2-columns:not(.woocommerce):not(.woocommerce-page) .entry-content {
+        @include column-gap ( 20px );
+    }
+    
+    .post-share {
+        width: 100%;
+        letter-spacing: 1px;
+    }
+    .more-link span.post-more {
+        letter-spacing: 3px;
+    }
+        
+        /* related post */
+    .blog-related-heading {
+        letter-spacing: 2px;
+    }
+    .blog-related .line {
+        
+    }
+    .related-thumbnail {
+        float: none;
+        width: 80px;
+        margin: 0 0 14px;
+    }
+    .related-title {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+    .related-excerpt {
+        display: none;
+    }
+    
+    /* 17 - Blog masonry
+    ---------------------------- */
+        /* 4 columns -> 2 columns, padding smaller */
+    
+    .blog-masonry.column-2 {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .blog-masonry.column-2 .post-masonry {
+        padding: 6px 6px 12px;
+    }
+    .masonry-title a {
+        font-size: .8em;
+    }
+    
+    .blog-masonry.column-3 {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .blog-masonry.column-3 .post-masonry {
+        padding: 6px 6px 12px;
+    }
+    
+    .blog-masonry.column-4 {
+        margin-left: -6px;
+        margin-right: -6px;
+    }
+    .blog-masonry.column-4 .post-masonry {
+        padding: 6px 6px 12px;
+        width: 50%;
+    }
+    .blog-masonry.column-4 .grid-sizer {
+        width: 50%;
+    }
+    .blog-masonry.column-4 .post-masonry:first-child {
+        width: 100%;
+    }
+    
+    /* 18 - Blog Newspaper
+    ---------------------------- */
+    
+    /* 19 - Blog Grid
+    ---------------------------- */
+        /* all --> 2 columns */
+    .blog-grid {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .post-grid {
+        padding: 0 10px 10px;
+    }
+    .grid-title a {
+        font-size: .8em;
+    }
+    
+    .grid-meta, 
+    .masonry-meta,
+    .list-meta {
+        padding-bottom: 7px;
+        letter-spacing: 1px;
+    }
+    
+    .blog-grid.column-3 .post-grid {
+        width: 50%;
+    }
+    
+    /* 20 - Blog List
+    ---------------------------- */
+    .list-cats {
+        margin-bottom: 0;
+    }
+    .list-content {
+    }
+    .post-list {
+        padding-bottom: 10px;
+    }
+    .list-thumbnail {
+        width: 150px;
+        margin-right: 16px;
+    }
+    .list-header {
+        padding-bottom: 10px;
+    }
+    .list-title {
+        font-size: 22px;
+    }
+    .list-content {
+        font-size: .9em;
+    }
+    
+    /* Blog Vertical
+    ---------------------------- */
+    .vertical-thumbnail {
+    }
+    .post-vertical-title {
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+    .post-vertical-content p {
+        margin-bottom: 10px;
+    }
+    
+    /* Blog Group
+    ---------------------------- */
+    .wi-newsblock,
+    .wi-newsblock2 {
+        display: block;
+    }
+    .article-big-wrapper,
+    .article-col-big {
+        padding-right: 0;
+        margin-bottom: $margin;
+        border-bottom: 1px solid;
+        padding-bottom: $margin;
+    }
+    .article-col-small {
+        padding-right: 0;
+    }
+    
+    .article-small-grid {
+        & + .article-small-grid {
+            margin-top: $margin;
+        }
+        .post-item-inner {
+            overflow: hidden;
+        }
+        .post-item-thumbnail {
+            width: 120px;
+            float: right;
+            margin: 0 0 0 10px;
+        }
+        .post-item-text {
+            overflow: hidden;
+        }
+    }
+    .article-tall {
+        margin-top: $margin;
+        .post-item-excerpt {
+            display: none;
+        }
+        .post-item-title {
+            font-size: 1.3em;
+            font-weight: normal;
+        }
+    }
+    
+    /* 21 - Pagination
+    ---------------------------- */
+    
+    /* 22 - Single post
+    ---------------------------- */
+        /* related */
+    .related-heading, .comments-title, #reply-title {
+        letter-spacing: 2px;
+    }
+    .related-list.column-3 {
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    .related-list.column-3 .post-grid {
+        width: 33.33%;
+        padding: 0 5px 5px;
+    }
+    .related-list .grid-header {
+        border: none;
+        margin-bottom: 0;
+    }
+    .related-list .grid-meta {
+        display: none;
+    }
+    .related-list .grid-content {
+        display: none;
+    }
+    .related-list .grid-title {
+        font-size: 20px;
+    }
+    
+        /* authorbox */
+    .authorbox {
+        margin-top: 32px;
+    }
+    .author-social ul li a {
+        font-size: 18px;
+    }
+    .authorbox-inner {
+        padding: 16px;
+    }
+    .authorbox .author-avatar {
+        width: 60px;
+        height: 60px;
+        margin-right: 36px;
+    }
+    .authorbox-nav {
+        margin-bottom: 10px;
+    }
+    
+        /* same category */
+    #posts-small-heading {
+        top: -2px;
+    }
+    #posts-small {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-small {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        float: none;
+    }
+    .small-thumbnail {
+        float: left;
+        width: 120px;
+        margin: 0 20px 0 0;
+    }
+    .small-body {
+        overflow: hidden;
+    }
+    .small-excerpt {
+        font-size: .9em;
+    }
+    
+        /* navigation */ 
+    .post-navigation .post-title {
+        font-size: 18px; /* 18 = 24*.75 */
+    }
+    
+        /* comment */
+    #comments {
+        padding-top: 24px;
+        margin-bottom: 20px;
+    }
+    .comments-title,
+    #reply-title,
+    .comment-notes, .logged-in-as {
+        margin-bottom: 24px;
+    }
+    .commentlist .comment-author img {
+        width: 48px;
+        height: 48px;
+        padding: 3px;
+        margin-right: 14px;
+    }
+    .comment-metadata, .comment .reply {
+        padding-left: 62px;
+    }
+    .commentlist ul.children {
+        padding-left: 22px;
+    }  
+    .comment-content {
+        padding-top: 3px;
+    }
+    
+        /* respond */
+    .comment-form-author, 
+    .comment-form-email, 
+    .comment-form-url {
+        float: none;
+        width: 100%;
+        margin-left: 0;
+    }
+    
+    /* Cool Post
+    ---------------------------- */
+    .cool-post {
+        .alignleft,
+        blockquote.align-left {
+            margin-left: 0;
+        }
+        .alignright,
+        blockquote.align-right {
+            margin-right: 0;
+        }
+    }
+    
+    /* Hero
+    ---------------------------- */
+    #hero {
+        
+        border: 0;
+        
+        .hero-background {
+            position: relative;
+        }
+        .hero-content {
+            position: static;
+            color: inherit;
+            text-align: center;
+            padding: 5% 5%;
+            border-bottom: 1px solid;
+        }
+        .hero-excerpt {
+            font-size: .9em;
+            line-height: 1.45;
+        }
+    }
+    
+    body.post-hero {
+        #wi-header {
+            display: block;
+        }
+        .minimal-header {
+            display: none;
+        }
+    }
+    
+    /* 23 - Widgets
+    ---------------------------- */
+    
+    /* 24 - Contact form 7
+    ---------------------------- */
+    .wpcf7 .input,
+    .wpcf7 .textarea {
+        width: 100%;
+        float: none;
+        margin: 0;
+    }
+    
+    /* 25 - Footer
+    ---------------------------- */
+    #backtotop {
+        display: none;
+    }
+    .footer-col {
+        width: 100%;
+        float: none;
+        clear: both;
+        margin-top: 12px;
+    }
+    .footer-widgets-inner .line {
+        display: none;
+    }
+    
+    /* 26 - Disable lines CSS
+    ---------------------------- */
+    
+}

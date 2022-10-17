@@ -10,6 +10,9 @@ require_once get_parent_theme_file_path( '/inc/admin/admin.php' );
 //
 //require_once get_parent_theme_file_path( '/inc/support.php' ); // array of things we support to validate
 
+// since 2.8
+require_once get_parent_theme_file_path( '/inc/header.php' );
+
 require_once get_parent_theme_file_path( '/inc/fonts.php' );
 require_once get_parent_theme_file_path( '/inc/google-fonts.php' );
 
@@ -18,7 +21,7 @@ require_once get_parent_theme_file_path( '/inc/google-fonts.php' );
 /**
  * Register and Enqueue Styles.
  *
- * @since Twenty Twenty 1.0
+ * @since crthemes 1.0
  */
 function register_styles() {
     wp_register_style('main', get_template_directory_uri() . '/assets/build/css/main.min.css', array(), '1.1', 'all');
@@ -30,7 +33,7 @@ add_action( 'wp_enqueue_scripts', 'register_styles' );
 /**
  * Register and Enqueue Scripts.
  *
- * @since Twenty Twenty 1.0
+ * @since crthemes 1.0
  */
 function register_scripts() {
     wp_register_script('crthemes-js', get_template_directory_uri() . '/assets/build/js/main.bundle.js', array('jquery'), '1.0.1', true); // Custom scripts
@@ -77,4 +80,75 @@ if ( class_exists( 'ACF' ) ) {
         return $path;
     }
 
+    if( function_exists('acf_add_options_page') ) {
+
+        acf_add_options_page(array(
+            'page_title'    => 'Theme General Settings',
+            'menu_title'    => 'Theme Settings',
+            'menu_slug'     => 'theme-general-settings',
+            'capability'	=> 'administrator',
+//            'redirect'      => false
+        ));
+
+        acf_add_options_sub_page(array(
+            'page_title'    => 'Theme Header Settings',
+            'menu_title'    => 'Header',
+            'parent_slug'   => 'theme-general-settings',
+        ));
+
+        acf_add_options_sub_page(array(
+            'page_title'    => 'Theme Footer Settings',
+            'menu_title'    => 'Footer',
+            'parent_slug'   => 'theme-general-settings',
+        ));
+
+    }
+
+
 }
+
+
+/* -------------------------------------------------------------------- */
+/* SETUP
+/* -------------------------------------------------------------------- */
+if ( ! function_exists( 'crthemes_setup' ) ) :
+    function crthemes_setup() {
+
+        // translation
+        load_theme_textdomain( 'wi', get_template_directory() . '/languages' );
+
+        // Add default posts and comments RSS feed links to head.
+        add_theme_support( 'automatic-feed-links' );
+
+        // title tag
+        add_theme_support( 'title-tag' );
+
+        // post thumbnail
+        add_theme_support( 'post-thumbnails' );
+        add_image_size( 'thumbnail-big', 1020, 510, true );  // big thumbnail (ratio 2:1)
+        add_image_size( 'thumbnail-medium', 480, 384, true );  // medium thumbnail
+        add_image_size( 'thumbnail-medium-nocrop', 480, 9999, false );  // medium thumbnail no crop
+        add_image_size( 'thumbnail-vertical', 9999, 500, false );  // vertical image used for gallery
+
+        // This theme uses wp_nav_menu() in two locations.
+        register_nav_menus( array(
+            'primary' => __( 'Primary Menu', 'wi' ),
+            'footer' => __( 'Footer Menu', 'wi' ),
+        ) );
+
+        // html5
+        add_theme_support( 'html5', array(
+            'search-form', 'comment-form', 'comment-list', 'gallery', 'caption',
+        ) );
+
+        // post formats
+        add_theme_support( 'post-formats', array(
+            'video', 'gallery', 'audio', 'link',
+        ) );
+
+        // since 2.4
+        add_theme_support( 'woocommerce' );
+
+    }
+endif; //
+add_action( 'after_setup_theme', 'crthemes_setup' );

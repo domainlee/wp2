@@ -1,0 +1,314 @@
+@media (max-width: 1023px) {
+    
+    #header-cart {
+        display: none;
+    }
+    
+    #{$all-text-inputs} {
+        -webkit-appearance: none;
+    }
+    
+    /* 6 - General settings 
+    ---------------------------- */
+    #wi-wrapper {
+        padding-top: 0;
+    }
+    html .site-no-border #wi-wrapper {
+        padding-top: 0;
+    }
+    
+    /* container */
+    .container {
+        width: 97%;
+    }
+    
+    /* 7 - Slick carousel
+    ---------------------------- */
+    .slick-item img {
+        height: 380px;
+    }
+    /* 8 - Flexslider
+    ---------------------------- */
+    
+    /* 9 - Layout
+    ---------------------------- */
+    .has-sidebar #primary,
+    .has-sidebar #secondary {
+        width: 100% !important;
+        float: none !important;
+    }
+    .has-sidebar #primary {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .has-sidebar #secondary {
+        padding-bottom: 0;
+    }
+    .has-sidebar #secondary .widget-area .widget {
+        display: block;
+        float: left;
+        width: 45%;
+        margin-top: 0;
+        margin-bottom: 52px;
+    }
+    .gutter-sidebar {
+        width: 10%;
+    }
+    
+    /* 10 - Title
+    ---------------------------- */
+    
+    /* 11 - Header
+    ---------------------------- */
+    .slogan {
+        letter-spacing: 6px;
+    }
+    #wi-topbar {
+        display: none;
+    }
+    .toggle-menu {
+        display: block;
+    }
+    #offcanvas {
+        display: block;
+    }
+    .wi-logo-main {
+        max-width: calc(100% - 120px);
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    /* Header Inline */
+    .header-inline {
+        #wi-mainnav,
+        #header-social,
+        #header-search {
+            display: none;
+        }
+        .main-container {
+            display: block;
+            padding: 10px 0;
+
+            #logo-area {
+                max-width: none;
+            }
+        }
+        #wi-logo img {
+            width: auto;
+            max-height: 40px;
+        }
+    }
+    
+    /* 13 - Featured Slider
+    ---------------------------- */
+    .slider-title {
+        font-size: 38px;
+    }
+    .slider-cell {
+        padding-bottom: 40px;
+    }
+    
+    /* 14 - Section
+    ---------------------------- */
+    .section-heading {
+        font-size: 56px; /* 0.7 */
+        letter-spacing: 1px;
+    }
+    
+    /* 15 - Big post
+    ---------------------------- */
+    .big-title {
+        font-size: 48px; /* 0.8 */
+    }
+    .big-content {
+        font-size: 1.2em;
+    }
+    
+    /* 16 - Standard Blog
+    ---------------------------- */
+    
+    /* 17 - Blog masonry
+    ---------------------------- */
+        /* 3 columns -> 2 columns, 4 columns -> 3 columns */
+    .blog-masonry.column-3 .post-masonry {
+        width: 50%;
+    }
+    .blog-masonry.column-3 .grid-sizer {
+        width: 50%;
+    }
+    .blog-masonry.column-3 .post-masonry:first-child {
+        width: 100%;
+    }
+    
+    .blog-masonry.column-4 .post-masonry {
+        width: 33.33%;
+    }
+    .blog-masonry.column-4 .grid-sizer {
+        width: 33.33%;
+    }
+    .blog-masonry.column-4 .post-masonry:first-child {
+        width: 66.66%;
+    }
+    
+    /* 18 - Blog Newspaper
+    ---------------------------- */
+    .blog-newspaper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .post-newspaper {
+        padding-left: 0;
+        padding-right: 0;
+        float: none;
+        width: 100%;
+    }
+    
+    /* 19 - Blog Grid
+    ---------------------------- */
+        /* 4 columns -> 2 columns */
+    .blog-grid.column-4 .post-grid {
+        width: 50%;
+    }
+    
+    /* 20 - Blog List
+    ---------------------------- */
+    
+    /* Blog Vertical
+    ---------------------------- */
+    .vertical-thumbnail {
+        width: 48%;
+        margin-right: 2%;
+    }
+    .post-vertical-title {
+        font-size: 2em;
+    }
+    .post-vertical-header .grid-meta {
+        font-size: 11px;
+    }
+    
+    /* Blog Group
+    ---------------------------- */
+    .article-small-list .post-item-title {
+        font-size: 1.3em;
+    }
+    .article-small-list .post-item-excerpt,
+    .article-small-grid .post-item-excerpt {
+        font-size: .9em;
+        line-height: 1.5;
+        .readmore {
+            display: none;
+        }
+    }
+    .article-small-list + .article-small-list {
+        margin-top: 10px;
+        padding-top: 10px;
+        border-top: 1px solid;
+    }
+    
+    /* 21 - Pagination
+    ---------------------------- */
+    .wi-pagination {
+        padding-top: 28px;
+    }
+    
+    /* 22 - Single post
+    ---------------------------- */
+    .post-small {
+        padding: 10px;
+    }
+    #posts-small {
+        margin-left: -10px;
+        margin-right: -10px;
+    }
+    .small-excerpt {
+        font-size: .8em;
+    }
+    
+    /* Cool Post
+    ---------------------------- */
+    .cool-post .post-header, 
+    .cool-post .single-body, 
+    .cool-post .single-tags, 
+    .cool-post .related-posts,
+    .cool-post .authorbox,
+    .cool-post .comments-area, 
+    .cool-post .post-nav {
+        width: calc(100% - 60px);
+    }
+    
+    .cool-post.coolpost-image-stretch-bit .wp-block-embed-youtube,
+    .cool-post.coolpost-image-stretch-bit .wp-block-cover,
+    .cool-post.coolpost-image-stretch-bit .wp-block-gallery,
+    .cool-post.coolpost-image-stretch-bit img.fullsize, 
+    .cool-post.coolpost-image-stretch-bit .wp-block-image img, 
+    .cool-post img.largesize {
+        width: calc(100% + 60px);
+        margin-left: -30px;
+    }
+    
+    /* Hero
+    ---------------------------- */
+    .hero-full .hero-headline,
+    #hero .hero-excerpt {
+        width: auto;
+        max-width: none;
+    }
+    #hero .hero-headline {
+        font-size: 2em;
+    }
+    #hero .hero-excerpt {
+        font-size: 1em;
+    }
+    #hero .hero-meta {
+        font-size: 12px;
+    }
+    
+    #hero.hero-half {
+        border: 0;
+        .hero-content {
+            position: static;
+        }
+        .hero-bg {
+            left: 0;
+        }
+    }
+    
+    body.post-hero-half {
+        #wi-header {
+            display: block;
+        }
+        .minimal-header {
+            display: none;
+        }
+    }
+    
+    /* 23 - Widgets
+    ---------------------------- */
+    
+    /* 24 - Contact form 7
+    ---------------------------- */
+    
+    /* 25 - Footer
+    ---------------------------- */
+    #wi-footer {
+        background: none;
+    }
+    .footer-widgets-inner {
+        margin-left: -35px;
+        margin-right: -35px;
+    }
+    .footer-col {
+        width: 50%;
+        padding-bottom: 12px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+    .footer-widgets-inner .line2,
+    .footer-widgets-inner .line3 {
+        display: none;
+    }
+    
+    /* 26 - Disable lines CSS
+    ---------------------------- */
+    
+}
