@@ -1,7 +1,23 @@
 {
     "key": "group_634d7b8bd28dc",
-    "title": "Head Options",
+    "title": "Head",
     "fields": [
+        {
+            "key": "field_634ecc1758886",
+            "label": "Logo",
+            "name": "",
+            "type": "tab",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "placement": "top",
+            "endpoint": 0
+        },
         {
             "key": "field_634d7dd44fa3f",
             "label": "Logo (mode light)",
@@ -93,5 +109,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1666022931
+    "modified": 1666108454
 }

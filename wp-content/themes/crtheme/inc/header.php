@@ -1,13 +1,13 @@
 <?php
-add_action( 'wp_ajax_nav_mega', 'wi_nav_mega' );
-add_action( 'wp_ajax_nopriv_nav_mega', 'wi_nav_mega' );
-if ( ! function_exists( 'wi_nav_mega' ) ) :
+add_action( 'wp_ajax_nav_mega', 'cr_nav_mega' );
+add_action( 'wp_ajax_nopriv_nav_mega', 'cr_nav_mega' );
+if ( ! function_exists( 'cr_nav_mega' ) ) :
 /**
  * Mega item ajax loading
  *
  * @since 2.8
  */
-function wi_nav_mega() {
+function cr_nav_mega() {
 
     $nonce = isset( $_POST[ 'nonce' ] ) ? $_POST[ 'nonce' ] : '';
 
@@ -119,15 +119,17 @@ if ( ! function_exists( 'cr_site_branding' ) ) :
  * @since 2.9
  */
 function cr_site_branding() {
-    ?>
+    $logo_dark = get_field('logo_option_dark', 'option');
+    $logo_light = get_field('logo_option_light', 'option');
+?>
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
         <h1 class="header__logo m-0">
-            <?php if (!the_field('logo_option', 'option')):?>
+            <?php if (!$logo_dark || !$logo_light):?>
                 <img class="light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
                 <img class="dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="logo" />
-            <?php else: ?>
-                <img class="light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
-                <img class="dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="logo" />
+            <?php else:  ?>
+                <img class="light" src="<?php echo $logo_light['url']; ?>" alt="logo" />
+                <img class="dark" src="<?php echo $logo_dark['url']; ?>" alt="logo" />
             <?php endif; // logo ?>
         </h1>
     </a>
@@ -159,4 +161,69 @@ function cr_header_searchbox() {
     <?php endif;
     
 }
+endif;
+
+if ( ! function_exists( 'cr_footer_branding' ) ) :
+    /**
+     * Footer Branding
+     *
+     * @since 2.9
+     */
+    function cr_footer_branding() {
+        $logo_dark = get_field('logo_option_dark', 'option');
+        $logo_light = get_field('logo_option_light', 'option');
+        ?>
+            <?php if (!$logo_dark || !$logo_light):?>
+                <img class="light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
+                <img class="dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="logo" />
+            <?php else:  ?>
+                <img class="light" src="<?php echo $logo_light['url']; ?>" alt="logo" />
+                <img class="dark" src="<?php echo $logo_dark['url']; ?>" alt="logo" />
+            <?php endif; // logo ?>
+        <?php
+    }
+endif;
+
+if ( ! function_exists( 'cr_footer_social' ) ) :
+    /**
+     * Footer Branding
+     *
+     * @since 2.9
+     */
+    function cr_footer_social() {
+            $social_list = get_field('social_list', 'option');
+            $fb_url = get_field('fb_url', 'option');
+            $google_url = get_field('google_url', 'option');
+            $twitter_url = get_field('twitter_url', 'option');
+            $youtube_url = get_field('youtube_url', 'option');
+            $instagram_url = get_field('instagram_url', 'option');
+            $flickr_url = get_field('flickr_url', 'option');
+            $tumblr_url = get_field('tumblr_url', 'option');
+            $pinterest_url = get_field('pinterest_url', 'option');
+            $slack_url = get_field('slack_url', 'option');
+        ?>
+        <div class="footer__social my-3 my-md-0">
+            <ul class="social justify-content-center justify-content-md-start">
+                <?php if(!empty($social_list)): ?>
+                    <?php
+                    $social_default = array('fb' => 'd-none','gg' => 'd-none','yt' => 'd-none','tw' => 'd-none','in' => 'd-none','fl' => 'd-none','tu' => 'd-none','pi' => 'd-none','sl' => 'd-none');
+                    foreach ($social_list as $v):
+                        if($social_default[$v]) {
+                            $social_default[$v] = 'd-block';
+                        }
+                    endforeach; ?>
+                <?php endif; ?>
+                    <li class="li-facebook <?php echo $social_default['fb']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Facebook"> <i class="fa fa-facebook-f"></i></a></li>
+                    <li class="li-google <?php echo $social_default['gg']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Google"> <i class="fa fa-google"></i></a></li>
+                    <li class="li-twitter <?php echo $social_default['tw']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
+                    <li class="li-youtube <?php echo $social_default['yt']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Youtube"> <i class="fa fa-youtube"></i></a></li>
+                    <li class="li-instagram <?php echo $social_default['in']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Instagram"> <i class="fa fa-instagram"></i></a></li>
+                    <li class="li-flickr <?php echo $social_default['fl']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Flickr"> <i class="fa fa-flickr"></i></a></li>
+                    <li class="li-tumblr <?php echo $social_default['tu']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Tumblr"> <i class="fa fa-tumblr"></i></a></li>
+                    <li class="li-pinterest <?php echo $social_default['pi']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Pinterest"> <i class="fa fa-pinterest-p"></i></a></li>
+                    <li class="li-slack <?php echo $social_default['sl']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Slack"> <i class="fa fa-slack"></i></a></li>
+            </ul>
+        </div>
+        <?php
+    }
 endif;

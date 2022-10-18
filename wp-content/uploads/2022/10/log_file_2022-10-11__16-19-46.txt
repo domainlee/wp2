@@ -1,0 +1,181 @@
+
+---Downloaded files---
+The import files for: Fox Times were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://localhost/wp2
+Data file = /Applications/MAMP/htdocs/wp2/wp-content/themes/crtheme/inc/demos/times/content.xml
+Widget file = /Applications/MAMP/htdocs/wp2/wp-content/themes/crtheme/inc/demos/times/widgets.wie
+Customizer file = /Applications/MAMP/htdocs/wp2/wp-content/themes/crtheme/inc/demos/times/customizer.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+
+
+------
+New AJAX call!
+[ERROR] Failed to import "
+				h_curtis-macnewton-317636-unsplash		" (Media)
+[ERROR] Failed to import "
+				blank-clean-contemporary-1557183		" (Media)
+[ERROR] Failed to import "
+				man-4013984_640		" (Media)
+

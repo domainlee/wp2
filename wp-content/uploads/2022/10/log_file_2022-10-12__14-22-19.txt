@@ -1,0 +1,53 @@
+
+---Downloaded files---
+The import files for: Fox Classic were successfully downloaded!
+Initial max execution time = 300
+Files info:
+Site URL = http://localhost/wp2
+Data file = /Applications/MAMP/htdocs/wp2/wp-content/themes/crtheme/inc/demos/classic/content.xml
+Widget file = /Applications/MAMP/htdocs/wp2/wp-content/themes/crtheme/inc/demos/classic/widgets.wie
+Customizer file = /Applications/MAMP/htdocs/wp2/wp-content/themes/crtheme/inc/demos/classic/customizer.dat
+Redux files:
+not defined!
+
+---Importing widgets---
+sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+about - I&#039;m Sammy - Site does not support widget
+social - Social Profile - Site does not support widget
+wi-authorlist - Authors - Site does not support widget
+ads - Banner Spot - Site does not support widget
+post_views_counter_list_widget - Most Viewed Posts - Site does not support widget
+mc4wp_form_widget - Newsletter - Site does not support widget
+Categories - No Title - Imported to Inactive
+wi-instagram - Instagram - Site does not support widget
+
+page-sidebar : Sidebar does not exist in theme (moving widget to Inactive)
+
+wi-pinterest - Sample Pin - Site does not support widget
+facebook - Facebook - Site does not support widget
+
+footer-1 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Text - About - Imported to Inactive
+Gallery - Gallery - Imported to Inactive
+
+footer-2 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Tag Cloud - No Title - Imported to Inactive
+
+footer-3 : Sidebar does not exist in theme (moving widget to Inactive)
+
+best-rated - Best Rated - Site does not support widget
+
+footer-4 : Sidebar does not exist in theme (moving widget to Inactive)
+
+Recent Comments - Comments - Imported to Inactive
+
+
+
+---Importing customizer settings---
+Error: The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme.
+
+---pt-ocdi/after_import---
+
