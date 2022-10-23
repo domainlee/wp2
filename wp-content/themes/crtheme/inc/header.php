@@ -125,11 +125,11 @@ function cr_site_branding() {
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
         <h1 class="header__logo m-0">
             <?php if (!$logo_dark || !$logo_light):?>
-                <img class="light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
-                <img class="dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="logo" />
+                <img class="mode-light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
+                <img class="mode-dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="logo" />
             <?php else:  ?>
-                <img class="light" src="<?php echo $logo_light['url']; ?>" alt="logo" />
-                <img class="dark" src="<?php echo $logo_dark['url']; ?>" alt="logo" />
+                <img class="mode-light" src="<?php echo $logo_light['url']; ?>" alt="logo" />
+                <img class="mode-dark" src="<?php echo $logo_dark['url']; ?>" alt="logo" />
             <?php endif; // logo ?>
         </h1>
     </a>
@@ -174,11 +174,11 @@ if ( ! function_exists( 'cr_footer_branding' ) ) :
         $logo_light = get_field('logo_option_light', 'option');
         ?>
             <?php if (!$logo_dark || !$logo_light):?>
-                <img class="light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
-                <img class="dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="logo" />
+                <img class="mode-light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
+                <img class="mode-dark" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo-dark.png" alt="logo" />
             <?php else:  ?>
-                <img class="light" src="<?php echo $logo_light['url']; ?>" alt="logo" />
-                <img class="dark" src="<?php echo $logo_dark['url']; ?>" alt="logo" />
+                <img class="mode-light" src="<?php echo $logo_light['url']; ?>" alt="logo" />
+                <img class="mode-dark" src="<?php echo $logo_dark['url']; ?>" alt="logo" />
             <?php endif; // logo ?>
         <?php
     }

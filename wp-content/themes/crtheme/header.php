@@ -1,5 +1,5 @@
 <!doctype html>
-<html <?php language_attributes(); ?> class="no-js">
+<html <?php language_attributes(); ?> class="no-js front-end">
 <head>
     <meta charset="<?php bloginfo('charset'); ?>">
     <title><?php bloginfo('name'); ?><?php if (wp_title('', false)) { echo ' | ';} ?><?php wp_title(''); ?></title>
@@ -10,83 +10,6 @@
     <script type="text/javascript">
         var ajaxurl = "<?php echo admin_url('admin-ajax.php'); ?>";
     </script>
-    <style>
-        html {
-        .light {
-            display: inline-block;
-        }
-        .dark {
-            display: none;
-        }
-        // init
-            --text: #000000;
-            --bg: #fffdf1;
-            --bg-section: #FFFFFF;
-            --bg-selection: #030a16;
-            --text-selection: #fffdf1;
-            --bg-heading: url('../img/bg_heading.png');
-            --bg-small: url('../img/bg_resume_heading_small-1.png');
-            --bg-blog-heading: url('../img/bg_blog_heading.png');
-            --bg-blockquote: #f9f9f9;
-
-        // about
-           --bg-about-button: #000000;
-        --text-about-button: #FFFFFF;
-
-        // resume
-           --bg-resume-skill: #e6e6e6;
-
-        // project
-           --bg-nav: transparent;
-        --bg-hover-nav: #000000;
-        --text-nav-button-active: #FFFFFF;
-        --bg-nav-button-active: #000000;
-
-        // service
-           --bg-service: #efefef;
-
-        // social
-           --bg-social-icon: #f5f0d6;
-        }
-
-        html[data-theme='dark'] {
-        .light {
-            display: none;
-        }
-        .dark {
-            display: inline-block;
-        }
-        //init
-        --text: #e3dfca;
-        --bg: #040c1d;
-        --bg-section: #030a16;
-        --bg-selection: #fffdf1;
-        --text-selection: #030a16;
-        --bg-heading: url('../img/bg_heading-dark.png');
-        --bg-small: url('../img/bg_resume_heading_small-dark-1.png');
-        --bg-blog-heading: url('../img/bg_blog_heading-dark.png');
-        --bg-blockquote: #040c1d;
-
-        //about
-        --bg-about-button: #e3dfca;
-        --text-about-button: #040c1d;
-
-        //resume
-           --bg-resume-skill: #5d5d5d;
-
-        // project
-            --bg-nav: transparent;
-            --bg-hover-nav: #e3dfca;
-            --text-nav-button-active: #000000;
-            --bg-nav-button-active: #FFFFFF;
-
-        // service
-           --bg-service: #040c1d;
-
-        // social
-           --bg-social-icon: #091831;
-        }
-    </style>
 
 </head>
 <body class="home" <?php body_class(); ?>>

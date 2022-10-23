@@ -15,7 +15,7 @@
             $('body').delay(666);
             animation();
             skill();
-            typing();
+            // typing();
         });
     }
 
@@ -23,7 +23,7 @@
         $('.loading').css('display', 'none');
         animation();
         skill();
-        typing();
+        // typing();
     }
 
     var typing = function () {
@@ -437,6 +437,7 @@
 
     $(document).ready(function() {
         window.bootstrap = require('bootstrap/dist/js/bootstrap.bundle.js');
+
         if(!isMobile()) {
             loading();
         } else {
@@ -449,17 +450,26 @@
         scrollTo();
         popup();
         form();
-        skill();
-        component_blog();
+        // skill();
+        // component_blog();
         dark();
 
         $(document).on( 'scroll', function(){
+            console.log('123');
             animation();
         });
-
         $('.scroll').on( 'scroll', function(){
             animation();
         });
 
     });
+
+
+
+
+
+    // if( window.acf ) {
+    //     window.acf.addAction( 'render_block_preview/type=about', typing );
+    // }
+
 }());

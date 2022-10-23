@@ -425,7 +425,7 @@ class Wi_Admin
         wp_enqueue_media();
         
         // admin css
-        wp_enqueue_style( 'wi-admin', get_template_directory_uri() . '/css/admin.css', array( 'wp-color-picker', 'wp-mediaelement' ) );
+//        wp_enqueue_style( 'wi-admin', get_template_directory_uri() . '/css/admin.css', array( 'wp-color-picker', 'wp-mediaelement' ) );
         
         // admin javascript
 //        wp_enqueue_script( 'wi-admin', get_template_directory_uri() . '/js/admin.js', array( 'wp-color-picker', 'wp-mediaelement' ), '20160326', true );
