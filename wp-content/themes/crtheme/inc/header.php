@@ -213,15 +213,15 @@ if ( ! function_exists( 'cr_footer_social' ) ) :
                         }
                     endforeach; ?>
                 <?php endif; ?>
-                    <li class="li-facebook <?php echo $social_default['fb']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Facebook"> <i class="fa fa-facebook-f"></i></a></li>
-                    <li class="li-google <?php echo $social_default['gg']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Google"> <i class="fa fa-google"></i></a></li>
-                    <li class="li-twitter <?php echo $social_default['tw']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
-                    <li class="li-youtube <?php echo $social_default['yt']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Youtube"> <i class="fa fa-youtube"></i></a></li>
-                    <li class="li-instagram <?php echo $social_default['in']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Instagram"> <i class="fa fa-instagram"></i></a></li>
-                    <li class="li-flickr <?php echo $social_default['fl']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Flickr"> <i class="fa fa-flickr"></i></a></li>
-                    <li class="li-tumblr <?php echo $social_default['tu']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Tumblr"> <i class="fa fa-tumblr"></i></a></li>
-                    <li class="li-pinterest <?php echo $social_default['pi']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Pinterest"> <i class="fa fa-pinterest-p"></i></a></li>
-                    <li class="li-slack <?php echo $social_default['sl']; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Slack"> <i class="fa fa-slack"></i></a></li>
+                    <li class="li-facebook <?php echo !empty($social_default['fb']) ? $social_default['fb']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Facebook"> <i class="fa fa-facebook-f"></i></a></li>
+                    <li class="li-google <?php echo !empty($social_default['gg']) ? $social_default['gg']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Google"> <i class="fa fa-google"></i></a></li>
+                    <li class="li-twitter <?php echo !empty($social_default['yt']) ? $social_default['yt']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
+                    <li class="li-youtube <?php echo !empty($social_default['tw']) ? $social_default['tw']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Youtube"> <i class="fa fa-youtube"></i></a></li>
+                    <li class="li-instagram <?php echo !empty($social_default['in']) ? $social_default['in']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Instagram"> <i class="fa fa-instagram"></i></a></li>
+                    <li class="li-flickr <?php echo !empty($social_default['fl']) ? $social_default['fl']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Flickr"> <i class="fa fa-flickr"></i></a></li>
+                    <li class="li-tumblr <?php echo !empty($social_default['tu']) ? $social_default['tu']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Tumblr"> <i class="fa fa-tumblr"></i></a></li>
+                    <li class="li-pinterest <?php echo !empty($social_default['pi']) ? $social_default['pi']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Pinterest"> <i class="fa fa-pinterest-p"></i></a></li>
+                    <li class="li-slack <?php echo !empty($social_default['sl']) ? $social_default['sl']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Slack"> <i class="fa fa-slack"></i></a></li>
             </ul>
         </div>
         <?php

@@ -16,7 +16,7 @@
 <!-- 7. WordPress will then import each of the posts, pages, comments, categories, etc. -->
 <!--    contained in this file into your site. -->
 
-	<!-- generator="WordPress/6.0.1" created="2022-10-13 07:12" -->
+	<!-- generator="WordPress/6.0.1" created="2022-10-24 16:23" -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
 	xmlns:content="http://purl.org/rss/1.0/modules/content/"
@@ -29,7 +29,7 @@
 	<title>WP</title>
 	<link>http://localhost/wp2</link>
 	<description>Just another WordPress site</description>
-	<pubDate>Thu, 13 Oct 2022 07:12:20 +0000</pubDate>
+	<pubDate>Mon, 24 Oct 2022 16:23:28 +0000</pubDate>
 	<language>en-US</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
 	<wp:base_site_url>http://localhost/wp2</wp:base_site_url>
@@ -61,9 +61,1464 @@
 	<generator>https://wordpress.org/?v=6.0.1</generator>
 
 		<item>
+		<title><![CDATA[Logo]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=13</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:32 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=13</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:7:{s:4:"type";s:3:"tab";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:9:"placement";s:3:"top";s:8:"endpoint";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>13</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634ecc1758886]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>12</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Logo (mode light)]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=14</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:32 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=14</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:15:{s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:12:"preview_size";s:6:"medium";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[logo_option_light]]></excerpt:encoded>
+		<wp:post_id>14</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634d7dd44fa3f]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>12</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Logo (mode dark)]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=15</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:32 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=15</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:15:{s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:12:"preview_size";s:6:"medium";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[logo_option_dark]]></excerpt:encoded>
+		<wp:post_id>15</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634d7b8cb88a7]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>12</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Favicon]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=16</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:32 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=16</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:15:{s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:12:"preview_size";s:6:"medium";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[favicon_option]]></excerpt:encoded>
+		<wp:post_id>16</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634d7badb88a8]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>12</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Footer Social]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=18</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=18</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:7:{s:4:"type";s:3:"tab";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:9:"placement";s:3:"top";s:8:"endpoint";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>18</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634ecb8f163d3]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Social]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=19</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=19</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:8:"checkbox";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:7:"choices";a:9:{s:2:"fb";s:15:"Facebook Social";s:2:"gg";s:6:"Google";s:2:"tw";s:7:"Twitter";s:2:"yt";s:7:"Youtube";s:2:"in";s:9:"Instagram";s:2:"fl";s:6:"Flickr";s:2:"tu";s:6:"Tumblr";s:2:"pi";s:9:"Pinterest";s:2:"sl";s:5:"Slack";}s:13:"default_value";a:0:{}s:13:"return_format";s:5:"value";s:12:"allow_custom";i:0;s:6:"layout";s:10:"horizontal";s:6:"toggle";i:1;s:11:"save_custom";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[social_list]]></excerpt:encoded>
+		<wp:post_id>19</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634ec7a9e0773]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Facebook URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=20</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=20</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"fb";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[fb_url]]></excerpt:encoded>
+		<wp:post_id>20</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634ec8f2c2dbb]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Google URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=21</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=21</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"gg";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[google_url]]></excerpt:encoded>
+		<wp:post_id>21</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634ec97a80b51]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Twitter URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=22</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=22</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"tw";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[twitter_url]]></excerpt:encoded>
+		<wp:post_id>22</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634ec9d24f16c]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Youtube URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=23</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=23</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"yt";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[youtube_url]]></excerpt:encoded>
+		<wp:post_id>23</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634ec9f14f16d]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Instagram URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=24</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=24</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"in";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[instagram_url]]></excerpt:encoded>
+		<wp:post_id>24</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634eca064f16e]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Flickr URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=25</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=25</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"fl";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[flickr_url]]></excerpt:encoded>
+		<wp:post_id>25</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634eca224f16f]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Tumblr URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=26</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=26</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"tu";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[tumblr_url]]></excerpt:encoded>
+		<wp:post_id>26</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634eca434f170]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Pinterest URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=27</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=27</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"pi";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[pinterest_url]]></excerpt:encoded>
+		<wp:post_id>27</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634eca5c4f171]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Slack URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=28</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=28</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_634ec7a9e0773";s:8:"operator";s:2:"==";s:5:"value";s:2:"sl";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[slack_url]]></excerpt:encoded>
+		<wp:post_id>28</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_634eca754f172]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>17</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Left content]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=30</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=30</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:7:{s:4:"type";s:3:"tab";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:9:"placement";s:3:"top";s:8:"endpoint";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>30</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352b89960c40]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Main image large center]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=31</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=31</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:15:{s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:12:"preview_size";s:9:"thumbnail";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_main_image_large_center]]></excerpt:encoded>
+		<wp:post_id>31</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352bb9008621]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Icon left top]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=32</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=32</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:45:"get class icon here https://icofont.com/icons";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:13:"icofont-royal";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_icon_left_top]]></excerpt:encoded>
+		<wp:post_id>32</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352ba83bd9d9]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Text left top]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=33</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=33</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:18:"Best Design Awards";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_text_left_top]]></excerpt:encoded>
+		<wp:post_id>33</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352bae10861e]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Text left bottom]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=34</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:48 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=34</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:23:"Years of<br/>Experiencs";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_text_left_bottom]]></excerpt:encoded>
+		<wp:post_id>34</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:48]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:48]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:48]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352bb160861f]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Text left bottom number]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=35</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=35</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:2:"9+";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_text_left_bottom_number]]></excerpt:encoded>
+		<wp:post_id>35</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352bb3a08620]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Text right middle]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=36</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=36</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:21:"20+<br/>Happy Clients";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[text_right_middle]]></excerpt:encoded>
+		<wp:post_id>36</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352bbb008622]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Social right middle]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=37</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=37</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:8:"repeater";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:6:"layout";s:3:"row";s:10:"pagination";i:0;s:3:"min";i:0;s:3:"max";i:0;s:9:"collapsed";s:0:"";s:12:"button_label";s:7:"Add Row";s:13:"rows_per_page";i:20;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_left_list_social]]></excerpt:encoded>
+		<wp:post_id>37</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352bbe308623]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Icon]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=38</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=38</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:15:"parent_repeater";s:19:"field_6352bbe308623";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_icon_social_left]]></excerpt:encoded>
+		<wp:post_id>38</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352bc0d08624]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>37</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Background icon]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=39</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=39</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:9:{s:4:"type";s:12:"color_picker";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:14:"enable_opacity";i:0;s:13:"return_format";s:6:"string";s:15:"parent_repeater";s:19:"field_6352bbe308623";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_bg_icon_social_left]]></excerpt:encoded>
+		<wp:post_id>39</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352c2d9a13ad]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>37</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Right content]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=40</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=40</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:7:{s:4:"type";s:3:"tab";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:9:"placement";s:3:"top";s:8:"endpoint";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>40</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352b9f560c41]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Title name]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=41</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=41</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:8:"Hi, I am";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_right_title_name]]></excerpt:encoded>
+		<wp:post_id>41</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352c9abd830d]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[List name, roles]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=42</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=42</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:38:"["Ervin Jason","Designer","Developer"]";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_list_name_roles]]></excerpt:encoded>
+		<wp:post_id>42</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352c9cdd830e]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Intro]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=43</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=43</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:7:"wysiwyg";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:272:"<p>Senior UX designer with 9+ years experience and specialization in complex web application design.</p>
+<p>Achieved 15% increase in user satisfaction and 20% increase in conversions through the creation of interactively tested, data-driven, and user-centered design.</p>";s:5:"delay";i:0;s:4:"tabs";s:3:"all";s:7:"toolbar";s:4:"full";s:12:"media_upload";i:1;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about_intro]]></excerpt:encoded>
+		<wp:post_id>43</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352ca2ed8310]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>11</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Button contact text]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=44</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=44</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:7:"Contact";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[button_contact_text]]></excerpt:encoded>
+		<wp:post_id>44</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352ca73906f6]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>12</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Button contact url]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=45</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=45</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:8:"#contact";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[button_contact_url]]></excerpt:encoded>
+		<wp:post_id>45</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352ca95906f7]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>29</wp:post_parent>
+		<wp:menu_order>13</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Global Social]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=47</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=47</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:7:{s:4:"type";s:3:"tab";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:9:"placement";s:3:"top";s:8:"endpoint";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>47</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaa99]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Social]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=48</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=48</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:8:"checkbox";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:7:"choices";a:9:{s:2:"fb";s:15:"Facebook Social";s:2:"gg";s:6:"Google";s:2:"tw";s:7:"Twitter";s:2:"yt";s:7:"Youtube";s:2:"in";s:9:"Instagram";s:2:"fl";s:6:"Flickr";s:2:"tu";s:6:"Tumblr";s:2:"pi";s:9:"Pinterest";s:2:"sl";s:5:"Slack";}s:13:"default_value";a:0:{}s:13:"return_format";s:5:"value";s:12:"allow_custom";i:0;s:6:"layout";s:10:"horizontal";s:6:"toggle";i:1;s:11:"save_custom";i:0;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[social_list]]></excerpt:encoded>
+		<wp:post_id>48</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaaa6]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Facebook URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=49</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=49</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"fb";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[fb_url]]></excerpt:encoded>
+		<wp:post_id>49</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaaae]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Google URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=50</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=50</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"gg";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[google_url]]></excerpt:encoded>
+		<wp:post_id>50</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaab4]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Twitter URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=51</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=51</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"tw";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[twitter_url]]></excerpt:encoded>
+		<wp:post_id>51</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaabc]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>4</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Youtube URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=52</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=52</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"yt";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[youtube_url]]></excerpt:encoded>
+		<wp:post_id>52</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaac2]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>5</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Instagram URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=53</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=53</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"in";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[instagram_url]]></excerpt:encoded>
+		<wp:post_id>53</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaace]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>6</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Flickr URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=54</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=54</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"fl";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[flickr_url]]></excerpt:encoded>
+		<wp:post_id>54</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaadc]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>7</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Tumblr URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=55</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=55</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"tu";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[tumblr_url]]></excerpt:encoded>
+		<wp:post_id>55</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddaafa]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>8</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[One Click Demo Import - log_file_2022-10-24__16-01-28]]></title>
+		<link>http://localhost/wp2/one-click-demo-import-log_file_2022-10-24__16-01-28/</link>
+		<pubDate>Mon, 24 Oct 2022 16:01:28 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/wp-content/uploads/2022/10/log_file_2022-10-24__16-01-28.txt</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>5</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:01:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:01:28]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:01:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:01:28]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[one-click-demo-import-log_file_2022-10-24__16-01-28]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/wp2/wp-content/uploads/2022/10/log_file_2022-10-24__16-01-28.txt]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/10/log_file_2022-10-24__16-01-28.txt]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
+		<title><![CDATA[Head]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field-group&#038;p=12</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:32 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?p=12</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:9:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:12:"options_page";s:8:"operator";s:2:"==";s:5:"value";s:18:"acf-options-header";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:8:"modified";i:1666108454;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[head]]></excerpt:encoded>
+		<wp:post_id>12</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:32]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:32]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:32]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_634d7b8bd28dc]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Footer]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field-group&#038;p=17</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:44 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?p=17</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:9:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:12:"options_page";s:8:"operator";s:2:"==";s:5:"value";s:18:"acf-options-footer";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:8:"modified";i:1666109488;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[footer]]></excerpt:encoded>
+		<wp:post_id>17</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:44]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:44]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:44]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_634ec6ae9cb17]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[About block]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field-group&#038;p=29</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:49 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?p=29</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:9:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:5:"block";s:8:"operator";s:2:"==";s:5:"value";s:9:"acf/about";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:8:"modified";i:1666376258;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[about-block]]></excerpt:encoded>
+		<wp:post_id>29</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:49]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:49]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:49]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6352b898d4c24]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Social Global]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field-group&#038;p=46</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?p=46</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:9:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:12:"options_page";s:8:"operator";s:2:"==";s:5:"value";s:22:"theme-general-settings";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:8:"modified";i:1666370457;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[social-global]]></excerpt:encoded>
+		<wp:post_id>46</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6352cb5dd66a6]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Pinterest URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=56</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=56</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"pi";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[pinterest_url]]></excerpt:encoded>
+		<wp:post_id>56</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddab06]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>9</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Slack URL]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=57</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:54 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=57</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_6352cb5ddaaa6";s:8:"operator";s:2:"==";s:5:"value";s:2:"sl";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[slack_url]]></excerpt:encoded>
+		<wp:post_id>57</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:54]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:54]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:54]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6352cb5ddab0b]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>46</wp:post_parent>
+		<wp:menu_order>10</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Block Resume]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field-group&#038;p=58</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?p=58</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:9:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:5:"block";s:8:"operator";s:2:"==";s:5:"value";s:10:"acf/resume";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;s:8:"modified";i:1666454456;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[block-resume]]></excerpt:encoded>
+		<wp:post_id>58</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[group_6353a7095bb20]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Heading]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=59</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=59</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:9:"My Resume";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_heading]]></excerpt:encoded>
+		<wp:post_id>59</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6353a70ae196a]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>58</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Sub Heading]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=60</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=60</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:23:"The services we provide";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_heading_sub]]></excerpt:encoded>
+		<wp:post_id>60</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_635410cdbaee7]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>58</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[My resume]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=61</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=61</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:8:"repeater";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:6:"layout";s:3:"row";s:10:"pagination";i:0;s:3:"min";i:0;s:3:"max";i:0;s:9:"collapsed";s:0:"";s:12:"button_label";s:7:"Add Row";s:13:"rows_per_page";i:20;}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_list]]></excerpt:encoded>
+		<wp:post_id>61</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_63541162baee8]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>58</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Type]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=62</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=62</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:14:{s:4:"type";s:6:"select";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:7:"choices";a:2:{s:8:"type_one";s:8:"Type One";s:8:"type_two";s:8:"Type Two";}s:13:"default_value";b:0;s:13:"return_format";s:5:"value";s:8:"multiple";i:0;s:10:"allow_null";i:0;s:2:"ui";i:0;s:4:"ajax";i:0;s:11:"placeholder";s:0:"";s:15:"parent_repeater";s:19:"field_63541162baee8";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_type]]></excerpt:encoded>
+		<wp:post_id>62</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_635411b9baee9]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>61</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Title]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=63</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=63</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:15:"parent_repeater";s:19:"field_63541162baee8";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_item_heading]]></excerpt:encoded>
+		<wp:post_id>63</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_63541223baeea]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>61</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Type Text List]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=64</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=64</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:8:"repeater";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_635411b9baee9";s:8:"operator";s:2:"==";s:5:"value";s:8:"type_one";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:6:"layout";s:3:"row";s:3:"min";i:0;s:3:"max";i:0;s:9:"collapsed";s:0:"";s:12:"button_label";s:7:"Add Row";s:13:"rows_per_page";i:20;s:15:"parent_repeater";s:19:"field_63541162baee8";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_type_text_list]]></excerpt:encoded>
+		<wp:post_id>64</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6354124dbaeeb]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>61</wp:post_parent>
+		<wp:menu_order>2</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Year]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=65</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=65</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:15:"parent_repeater";s:19:"field_6354124dbaeeb";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_one_year]]></excerpt:encoded>
+		<wp:post_id>65</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_63541285baeec]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>64</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Description]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=66</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=66</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:11:"placeholder";s:0:"";s:9:"new_lines";s:0:"";s:15:"parent_repeater";s:19:"field_6354124dbaeeb";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_one_description]]></excerpt:encoded>
+		<wp:post_id>66</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_63541293baeed]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>64</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Type Skill]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=67</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=67</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:12:{s:4:"type";s:8:"repeater";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";a:1:{i:0;a:1:{i:0;a:3:{s:5:"field";s:19:"field_635411b9baee9";s:8:"operator";s:2:"==";s:5:"value";s:8:"type_two";}}}s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:6:"layout";s:3:"row";s:3:"min";i:0;s:3:"max";i:0;s:9:"collapsed";s:0:"";s:12:"button_label";s:7:"Add Row";s:13:"rows_per_page";i:20;s:15:"parent_repeater";s:19:"field_63541162baee8";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_type_skill]]></excerpt:encoded>
+		<wp:post_id>67</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_635412e5baeee]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>61</wp:post_parent>
+		<wp:menu_order>3</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Title]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=68</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=68</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:15:"parent_repeater";s:19:"field_635412e5baeee";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_type_two_label]]></excerpt:encoded>
+		<wp:post_id>68</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_63541307baeef]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>67</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[Precent]]></title>
+		<link>http://localhost/wp2/?post_type=acf-field&#038;p=69</link>
+		<pubDate>Mon, 24 Oct 2022 16:06:59 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=69</guid>
+		<description></description>
+		<content:encoded><![CDATA[a:11:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";s:15:"parent_repeater";s:19:"field_635412e5baeee";}]]></content:encoded>
+		<excerpt:encoded><![CDATA[resume_type_two_precent]]></excerpt:encoded>
+		<wp:post_id>69</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:06:59]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:06:59]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:06:59]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[field_6354132cbaef0]]></wp:post_name>
+		<wp:status><![CDATA[publish]]></wp:status>
+		<wp:post_parent>67</wp:post_parent>
+		<wp:menu_order>1</wp:menu_order>
+		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+														</item>
+					<item>
+		<title><![CDATA[bg_avatar]]></title>
+		<link>http://localhost/wp2/testominal/bg_avatar/</link>
+		<pubDate>Mon, 24 Oct 2022 16:21:28 +0000</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">http://localhost/wp2/wp-content/uploads/2022/10/bg_avatar-1.png</guid>
+		<description></description>
+		<content:encoded><![CDATA[]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>74</wp:post_id>
+		<wp:post_date><![CDATA[2022-10-24 16:21:28]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:21:28]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:21:28]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:21:28]]></wp:post_modified_gmt>
+		<wp:comment_status><![CDATA[open]]></wp:comment_status>
+		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
+		<wp:post_name><![CDATA[bg_avatar]]></wp:post_name>
+		<wp:status><![CDATA[inherit]]></wp:status>
+		<wp:post_parent>10</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type><![CDATA[attachment]]></wp:post_type>
+		<wp:post_password><![CDATA[]]></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+						<wp:attachment_url><![CDATA[http://localhost/wp2/wp-content/uploads/2022/10/bg_avatar-1.png]]></wp:attachment_url>
+											<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
+		<wp:meta_value><![CDATA[2022/10/bg_avatar-1.png]]></wp:meta_value>
+		</wp:postmeta>
+							<wp:postmeta>
+		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
+		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:908;s:6:"height";i:780;s:4:"file";s:23:"2022/10/bg_avatar-1.png";s:8:"filesize";i:472183;s:5:"sizes";a:7:{s:6:"medium";a:5:{s:4:"file";s:23:"bg_avatar-1-300x258.png";s:5:"width";i:300;s:6:"height";i:258;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:66065;}s:9:"thumbnail";a:5:{s:4:"file";s:23:"bg_avatar-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:22577;}s:12:"medium_large";a:5:{s:4:"file";s:23:"bg_avatar-1-768x660.png";s:5:"width";i:768;s:6:"height";i:660;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:372270;}s:13:"thumbnail-big";a:5:{s:4:"file";s:23:"bg_avatar-1-908x510.png";s:5:"width";i:908;s:6:"height";i:510;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:397838;}s:16:"thumbnail-medium";a:5:{s:4:"file";s:23:"bg_avatar-1-480x384.png";s:5:"width";i:480;s:6:"height";i:384;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:154537;}s:23:"thumbnail-medium-nocrop";a:5:{s:4:"file";s:23:"bg_avatar-1-480x412.png";s:5:"width";i:480;s:6:"height";i:412;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:158488;}s:18:"thumbnail-vertical";a:5:{s:4:"file";s:23:"bg_avatar-1-582x500.png";s:5:"width";i:582;s:6:"height";i:500;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:225457;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
+		</wp:postmeta>
+							</item>
+					<item>
 		<title><![CDATA[Hello world!]]></title>
-		<link>http://localhost/wp2/2022/10/13/hello-world/</link>
-		<pubDate>Thu, 13 Oct 2022 03:34:40 +0000</pubDate>
+		<link>http://localhost/wp2/2022/10/24/hello-world/</link>
+		<pubDate>Mon, 24 Oct 2022 16:00:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wp2/?p=1</guid>
 		<description></description>
@@ -72,10 +1527,10 @@
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>1</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 03:34:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 03:34:40]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 03:34:40]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 03:34:40]]></wp:post_modified_gmt>
+		<wp:post_date><![CDATA[2022-10-24 16:00:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:00:45]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:00:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:00:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[open]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[hello-world]]></wp:post_name>
@@ -92,11 +1547,27 @@
 			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
 			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
 			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
+			<wp:comment_date><![CDATA[2022-10-24 16:00:45]]></wp:comment_date>
+			<wp:comment_date_gmt><![CDATA[2022-10-24 16:00:45]]></wp:comment_date_gmt>
+			<wp:comment_content><![CDATA[Hi, this is a comment.
+To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
+Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]></wp:comment_content>
+			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
+			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
+			<wp:comment_parent>0</wp:comment_parent>
+			<wp:comment_user_id>0</wp:comment_user_id>
+							</wp:comment>
+					<wp:comment>
+			<wp:comment_id>2</wp:comment_id>
+			<wp:comment_author><![CDATA[A WordPress Commenter]]></wp:comment_author>
+			<wp:comment_author_email><![CDATA[wapuu@wordpress.example]]></wp:comment_author_email>
+			<wp:comment_author_url>https://wordpress.org/</wp:comment_author_url>
+			<wp:comment_author_IP><![CDATA[]]></wp:comment_author_IP>
 			<wp:comment_date><![CDATA[2022-10-13 03:34:40]]></wp:comment_date>
 			<wp:comment_date_gmt><![CDATA[2022-10-13 03:34:40]]></wp:comment_date_gmt>
 			<wp:comment_content><![CDATA[Hi, this is a comment.
 To get started with moderating, editing, and deleting comments, please visit the Comments screen in the dashboard.
-Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]></wp:comment_content>
+Commenter avatars come from <a href=\"https://en.gravatar.com/\" rel=\"nofollow ugc\">Gravatar</a>.]]></wp:comment_content>
 			<wp:comment_approved><![CDATA[1]]></wp:comment_approved>
 			<wp:comment_type><![CDATA[comment]]></wp:comment_type>
 			<wp:comment_parent>0</wp:comment_parent>
@@ -106,7 +1577,7 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 					<item>
 		<title><![CDATA[Sample Page]]></title>
 		<link>http://localhost/wp2/sample-page/</link>
-		<pubDate>Thu, 13 Oct 2022 03:34:40 +0000</pubDate>
+		<pubDate>Mon, 24 Oct 2022 16:00:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wp2/?page_id=2</guid>
 		<description></description>
@@ -131,10 +1602,10 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 <!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>2</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 03:34:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 03:34:40]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 03:34:40]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 03:34:40]]></wp:post_modified_gmt>
+		<wp:post_date><![CDATA[2022-10-24 16:00:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:00:45]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:00:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:00:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[sample-page]]></wp:post_name>
@@ -152,17 +1623,17 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 					<item>
 		<title><![CDATA[Privacy Policy]]></title>
 		<link>http://localhost/wp2/?page_id=3</link>
-		<pubDate>Thu, 13 Oct 2022 03:34:40 +0000</pubDate>
+		<pubDate>Mon, 24 Oct 2022 16:00:45 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wp2/?page_id=3</guid>
 		<description></description>
 		<content:encoded><![CDATA[<!-- wp:heading --><h2>Who we are</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>Our website address is: http://localhost/wp2.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Comments</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>When visitors leave comments on the site we collect the data shown in the comments form, and also the visitor&#8217;s IP address and browser user agent string to help spam detection.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>An anonymized string created from your email address (also called a hash) may be provided to the Gravatar service to see if you are using it. The Gravatar service privacy policy is available here: https://automattic.com/privacy/. After approval of your comment, your profile picture is visible to the public in the context of your comment.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Media</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you upload images to the website, you should avoid uploading images with embedded location data (EXIF GPS) included. Visitors to the website can download and extract any location data from images on the website.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Cookies</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you leave a comment on our site you may opt-in to saving your name, email address and website in cookies. These are for your convenience so that you do not have to fill in your details again when you leave another comment. These cookies will last for one year.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you visit our login page, we will set a temporary cookie to determine if your browser accepts cookies. This cookie contains no personal data and is discarded when you close your browser.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>When you log in, we will also set up several cookies to save your login information and your screen display choices. Login cookies last for two days, and screen options cookies last for a year. If you select &quot;Remember Me&quot;, your login will persist for two weeks. If you log out of your account, the login cookies will be removed.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>If you edit or publish an article, an additional cookie will be saved in your browser. This cookie includes no personal data and simply indicates the post ID of the article you just edited. It expires after 1 day.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Embedded content from other websites</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>Articles on this site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves in the exact same way as if the visitor has visited the other website.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Who we share your data with</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you request a password reset, your IP address will be included in the reset email.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>How long we retain your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you leave a comment, the comment and its metadata are retained indefinitely. This is so we can recognize and approve any follow-up comments automatically instead of holding them in a moderation queue.</p><!-- /wp:paragraph --><!-- wp:paragraph --><p>For users that register on our website (if any), we also store the personal information they provide in their user profile. All users can see, edit, or delete their personal information at any time (except they cannot change their username). Website administrators can also see and edit that information.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>What rights you have over your data</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>If you have an account on this site, or have left comments, you can request to receive an exported file of the personal data we hold about you, including any data you have provided to us. You can also request that we erase any personal data we hold about you. This does not include any data we are obliged to keep for administrative, legal, or security purposes.</p><!-- /wp:paragraph --><!-- wp:heading --><h2>Where your data is sent</h2><!-- /wp:heading --><!-- wp:paragraph --><p><strong class="privacy-policy-tutorial">Suggested text: </strong>Visitor comments may be checked through an automated spam detection service.</p><!-- /wp:paragraph -->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
 		<wp:post_id>3</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 03:34:40]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 03:34:40]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 03:34:40]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 03:34:40]]></wp:post_modified_gmt>
+		<wp:post_date><![CDATA[2022-10-24 16:00:45]]></wp:post_date>
+		<wp:post_date_gmt><![CDATA[2022-10-24 16:00:45]]></wp:post_date_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:00:45]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:00:45]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[open]]></wp:ping_status>
 		<wp:post_name><![CDATA[privacy-policy]]></wp:post_name>
@@ -178,121 +1649,21 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		</wp:postmeta>
 							</item>
 					<item>
-		<title><![CDATA[Blog Testimonial]]></title>
-		<link>http://localhost/wp2/?post_type=acf-field-group&#038;p=5</link>
-		<pubDate>Thu, 13 Oct 2022 03:45:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field-group&#038;p=5</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:8:{s:8:"location";a:1:{i:0;a:1:{i:0;a:3:{s:5:"param";s:5:"block";s:8:"operator";s:2:"==";s:5:"value";s:15:"acf/testimonial";}}}s:8:"position";s:6:"normal";s:5:"style";s:7:"default";s:15:"label_placement";s:3:"top";s:21:"instruction_placement";s:5:"label";s:14:"hide_on_screen";s:0:"";s:11:"description";s:0:"";s:12:"show_in_rest";i:0;}]]></content:encoded>
-		<excerpt:encoded><![CDATA[blog-testimonial]]></excerpt:encoded>
-		<wp:post_id>5</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 03:45:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 03:45:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 04:31:22]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 04:31:22]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[group_6347895b4f6c3]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field-group]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[Image]]></title>
-		<link>http://localhost/wp2/?post_type=acf-field&#038;p=6</link>
-		<pubDate>Thu, 13 Oct 2022 03:45:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=6</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:15:{s:4:"type";s:5:"image";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"return_format";s:5:"array";s:7:"library";s:3:"all";s:9:"min_width";s:0:"";s:10:"min_height";s:0:"";s:8:"min_size";s:0:"";s:9:"max_width";s:0:"";s:10:"max_height";s:0:"";s:8:"max_size";s:0:"";s:10:"mime_types";s:0:"";s:12:"preview_size";s:6:"medium";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[image]]></excerpt:encoded>
-		<wp:post_id>6</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 03:45:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 03:45:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 03:45:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 03:45:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_6347895c3f113]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>5</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Question]]></title>
-		<link>http://localhost/wp2/?post_type=acf-field&#038;p=7</link>
-		<pubDate>Thu, 13 Oct 2022 03:45:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=7</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:10:{s:4:"type";s:4:"text";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:11:"placeholder";s:0:"";s:7:"prepend";s:0:"";s:6:"append";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[question]]></excerpt:encoded>
-		<wp:post_id>7</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 03:45:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 03:45:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 03:45:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 03:45:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_634789963f114]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>5</wp:post_parent>
-		<wp:menu_order>1</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[ASW]]></title>
-		<link>http://localhost/wp2/?post_type=acf-field&#038;p=8</link>
-		<pubDate>Thu, 13 Oct 2022 03:45:17 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp2/?post_type=acf-field&#038;p=8</guid>
-		<description></description>
-		<content:encoded><![CDATA[a:10:{s:4:"type";s:8:"textarea";s:12:"instructions";s:0:"";s:8:"required";i:0;s:17:"conditional_logic";i:0;s:7:"wrapper";a:3:{s:5:"width";s:0:"";s:5:"class";s:0:"";s:2:"id";s:0:"";}s:13:"default_value";s:0:"";s:9:"maxlength";s:0:"";s:4:"rows";s:0:"";s:11:"placeholder";s:0:"";s:9:"new_lines";s:0:"";}]]></content:encoded>
-		<excerpt:encoded><![CDATA[asw]]></excerpt:encoded>
-		<wp:post_id>8</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 03:45:17]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 03:45:17]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 03:45:17]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 03:45:17]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[field_634789ab3f115]]></wp:post_name>
-		<wp:status><![CDATA[publish]]></wp:status>
-		<wp:post_parent>5</wp:post_parent>
-		<wp:menu_order>2</wp:menu_order>
-		<wp:post_type><![CDATA[acf-field]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-														</item>
-					<item>
-		<title><![CDATA[Testominal]]></title>
-		<link>http://localhost/wp2/testominal/</link>
+		<title><![CDATA[Home Page]]></title>
+		<link>http://localhost/wp2/</link>
 		<pubDate>Thu, 13 Oct 2022 03:48:57 +0000</pubDate>
 		<dc:creator><![CDATA[admin]]></dc:creator>
 		<guid isPermaLink="false">http://localhost/wp2/?page_id=9</guid>
 		<description></description>
-		<content:encoded><![CDATA[<!-- wp:acf/testimonial {"name":"acf/testimonial","data":{"image":18,"_image":"field_6347895c3f113","question":"asdasd","_question":"field_634789963f114","asw":"asdasdasd","_asw":"field_634789ab3f115"},"mode":"preview"} /-->
+		<content:encoded><![CDATA[<!-- wp:acf/about {"name":"acf/about","data":{"about_main_image_large_center":74,"_about_main_image_large_center":"field_6352bb9008621","about_icon_left_top":"icofont-royal","_about_icon_left_top":"field_6352ba83bd9d9","about_text_left_top":"Best Design Awards","_about_text_left_top":"field_6352bae10861e","about_text_left_bottom":"Years of\u003cbr/\u003eExperiencs","_about_text_left_bottom":"field_6352bb160861f","about_text_left_bottom_number":"9+","_about_text_left_bottom_number":"field_6352bb3a08620","text_right_middle":"20+\u003cbr/\u003eHappy Clients","_text_right_middle":"field_6352bbb008622","about_left_list_social_0_about_icon_social_left":"icofont-brand-adobe","_about_left_list_social_0_about_icon_social_left":"field_6352bc0d08624","about_left_list_social_0_about_bg_icon_social_left":"","_about_left_list_social_0_about_bg_icon_social_left":"field_6352c2d9a13ad","about_left_list_social_1_about_icon_social_left":"icofont-brand-gucci","_about_left_list_social_1_about_icon_social_left":"field_6352bc0d08624","about_left_list_social_1_about_bg_icon_social_left":"","_about_left_list_social_1_about_bg_icon_social_left":"field_6352c2d9a13ad","about_left_list_social_2_about_icon_social_left":"icofont-brand-disney","_about_left_list_social_2_about_icon_social_left":"field_6352bc0d08624","about_left_list_social_2_about_bg_icon_social_left":"","_about_left_list_social_2_about_bg_icon_social_left":"field_6352c2d9a13ad","about_left_list_social":3,"_about_left_list_social":"field_6352bbe308623","about_right_title_name":"Hi, I am","_about_right_title_name":"field_6352c9abd830d","about_list_name_roles":"[\u0022Ervin Jason\u0022,\u0022Designer\u0022,\u0022Developer\u0022]","_about_list_name_roles":"field_6352c9cdd830e","about_intro":"Senior UX designer with 9+ years experience and specialization in complex web application design.\r\n\r\nAchieved 15% increase in user satisfaction and 20% increase in conversions through the creation of interactively tested, data-driven, and user-centered design.","_about_intro":"field_6352ca2ed8310","button_contact_text":"Contact 1","_button_contact_text":"field_6352ca73906f6","button_contact_url":"#contact","_button_contact_url":"field_6352ca95906f7"},"mode":"edit"} /-->
 
-<!-- wp:acf/testimonial {"name":"acf/testimonial","data":{"image":"","_image":"field_6347895c3f113","question":"question","_question":"field_634789963f114","asw":"asw","_asw":"field_634789ab3f115"},"mode":"preview"} /-->]]></content:encoded>
+<!-- wp:acf/resume {"name":"acf/resume","data":{"resume_heading":"My Resume","_resume_heading":"field_6353a70ae196a","resume_heading_sub":"The services we provide","_resume_heading_sub":"field_635410cdbaee7","resume_list_0_resume_type":"type_two","_resume_list_0_resume_type":"field_635411b9baee9","resume_list_0_resume_item_heading":"Skill","_resume_list_0_resume_item_heading":"field_63541223baeea","resume_list_0_resume_type_skill_0_resume_type_two_label":"Photoshop","_resume_list_0_resume_type_skill_0_resume_type_two_label":"field_63541307baeef","resume_list_0_resume_type_skill_0_resume_type_two_precent":"80","_resume_list_0_resume_type_skill_0_resume_type_two_precent":"field_6354132cbaef0","resume_list_0_resume_type_skill_1_resume_type_two_label":"WordPress","_resume_list_0_resume_type_skill_1_resume_type_two_label":"field_63541307baeef","resume_list_0_resume_type_skill_1_resume_type_two_precent":"80","_resume_list_0_resume_type_skill_1_resume_type_two_precent":"field_6354132cbaef0","resume_list_0_resume_type_skill_2_resume_type_two_label":"ReactJS","_resume_list_0_resume_type_skill_2_resume_type_two_label":"field_63541307baeef","resume_list_0_resume_type_skill_2_resume_type_two_precent":"50","_resume_list_0_resume_type_skill_2_resume_type_two_precent":"field_6354132cbaef0","resume_list_0_resume_type_skill_3_resume_type_two_label":"System Admin","_resume_list_0_resume_type_skill_3_resume_type_two_label":"field_63541307baeef","resume_list_0_resume_type_skill_3_resume_type_two_precent":"70","_resume_list_0_resume_type_skill_3_resume_type_two_precent":"field_6354132cbaef0","resume_list_0_resume_type_skill_4_resume_type_two_label":"Jquery","_resume_list_0_resume_type_skill_4_resume_type_two_label":"field_63541307baeef","resume_list_0_resume_type_skill_4_resume_type_two_precent":"60","_resume_list_0_resume_type_skill_4_resume_type_two_precent":"field_6354132cbaef0","resume_list_0_resume_type_skill":5,"_resume_list_0_resume_type_skill":"field_635412e5baeee","resume_list_1_resume_type":"type_one","_resume_list_1_resume_type":"field_635411b9baee9","resume_list_1_resume_item_heading":"Education","_resume_list_1_resume_item_heading":"field_63541223baeea","resume_list_1_resume_type_text_list_0_resume_one_year":"2010 – 2012","_resume_list_1_resume_type_text_list_0_resume_one_year":"field_63541285baeec","resume_list_1_resume_type_text_list_0_resume_one_description":"\u003cp\u003eMasters in Interaction Design\u003c/p\u003e\r\n\u003cp\u003eUniversity of North Texas, Denton, TX\u003c/p\u003e\r\n\u003cp\u003e\u003c/p\u003e","_resume_list_1_resume_type_text_list_0_resume_one_description":"field_63541293baeed","resume_list_1_resume_type_text_list_1_resume_one_year":"2006 – 2009","_resume_list_1_resume_type_text_list_1_resume_one_year":"field_63541285baeec","resume_list_1_resume_type_text_list_1_resume_one_description":"\u003cp\u003eBachelor of Science in Computer Science\r\n\u003c/p\u003e\r\n\u003cp\u003eUniversity of North Texas, Denton, TX\r\n\u003c/p\u003e","_resume_list_1_resume_type_text_list_1_resume_one_description":"field_63541293baeed","resume_list_1_resume_type_text_list":2,"_resume_list_1_resume_type_text_list":"field_6354124dbaeeb","resume_list":2,"_resume_list":"field_63541162baee8"},"mode":"preview"} /-->]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>9</wp:post_id>
+		<wp:post_id>10</wp:post_id>
 		<wp:post_date><![CDATA[2022-10-13 03:48:57]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-10-13 03:48:57]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 07:11:33]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 07:11:33]]></wp:post_modified_gmt>
+		<wp:post_modified><![CDATA[2022-10-24 16:22:31]]></wp:post_modified>
+		<wp:post_modified_gmt><![CDATA[2022-10-24 16:22:31]]></wp:post_modified_gmt>
 		<wp:comment_status><![CDATA[closed]]></wp:comment_status>
 		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
 		<wp:post_name><![CDATA[testominal]]></wp:post_name>
@@ -303,10 +1674,6 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:post_password><![CDATA[]]></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
 														<wp:postmeta>
-		<wp:meta_key><![CDATA[_edit_last]]></wp:meta_key>
-		<wp:meta_value><![CDATA[1]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
 		<wp:meta_key><![CDATA[_wi_column_layout]]></wp:meta_key>
 		<wp:meta_value><![CDATA[]]></wp:meta_value>
 		</wp:postmeta>
@@ -340,7 +1707,7 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<description></description>
 		<content:encoded><![CDATA[{"version": 2, "isGlobalStylesUserThemeJSON": true }]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>10</wp:post_id>
+		<wp:post_id>11</wp:post_id>
 		<wp:post_date><![CDATA[2022-10-13 03:45:37]]></wp:post_date>
 		<wp:post_date_gmt><![CDATA[2022-10-13 03:45:37]]></wp:post_date_gmt>
 		<wp:post_modified><![CDATA[2022-10-13 03:45:37]]></wp:post_modified>
@@ -356,72 +1723,6 @@ Commenter avatars come from <a href="https://en.gravatar.com/">Gravatar</a>.]]><
 		<wp:is_sticky>0</wp:is_sticky>
 										<category domain="wp_theme" nicename="crtheme"><![CDATA[crtheme]]></category>
 						</item>
-					<item>
-		<title><![CDATA[butterfly_blade_timo_boll_alc_1]]></title>
-		<link>http://localhost/wp2/butterfly_blade_timo_boll_alc_1/</link>
-		<pubDate>Thu, 13 Oct 2022 07:10:58 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp2/wp-content/uploads/2022/10/butterfly_blade_timo_boll_alc_1.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>17</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 07:10:58]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 07:10:58]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 07:10:58]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 07:10:58]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[butterfly_blade_timo_boll_alc_1]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>0</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost/wp2/wp-content/uploads/2022/10/butterfly_blade_timo_boll_alc_1.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/10/butterfly_blade_timo_boll_alc_1.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:611;s:6:"height";i:1021;s:4:"file";s:43:"2022/10/butterfly_blade_timo_boll_alc_1.png";s:8:"filesize";i:824287;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:43:"butterfly_blade_timo_boll_alc_1-180x300.png";s:5:"width";i:180;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:57445;}s:9:"thumbnail";a:5:{s:4:"file";s:43:"butterfly_blade_timo_boll_alc_1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:28149;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
-					<item>
-		<title><![CDATA[butterfly_blade_timo_boll_alc_1]]></title>
-		<link>http://localhost/wp2/testominal/butterfly_blade_timo_boll_alc_1-2/</link>
-		<pubDate>Thu, 13 Oct 2022 07:11:24 +0000</pubDate>
-		<dc:creator><![CDATA[admin]]></dc:creator>
-		<guid isPermaLink="false">http://localhost/wp2/wp-content/uploads/2022/10/butterfly_blade_timo_boll_alc_1-1.png</guid>
-		<description></description>
-		<content:encoded><![CDATA[]]></content:encoded>
-		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
-		<wp:post_id>18</wp:post_id>
-		<wp:post_date><![CDATA[2022-10-13 07:11:24]]></wp:post_date>
-		<wp:post_date_gmt><![CDATA[2022-10-13 07:11:24]]></wp:post_date_gmt>
-		<wp:post_modified><![CDATA[2022-10-13 07:11:24]]></wp:post_modified>
-		<wp:post_modified_gmt><![CDATA[2022-10-13 07:11:24]]></wp:post_modified_gmt>
-		<wp:comment_status><![CDATA[open]]></wp:comment_status>
-		<wp:ping_status><![CDATA[closed]]></wp:ping_status>
-		<wp:post_name><![CDATA[butterfly_blade_timo_boll_alc_1-2]]></wp:post_name>
-		<wp:status><![CDATA[inherit]]></wp:status>
-		<wp:post_parent>9</wp:post_parent>
-		<wp:menu_order>0</wp:menu_order>
-		<wp:post_type><![CDATA[attachment]]></wp:post_type>
-		<wp:post_password><![CDATA[]]></wp:post_password>
-		<wp:is_sticky>0</wp:is_sticky>
-						<wp:attachment_url><![CDATA[http://localhost/wp2/wp-content/uploads/2022/10/butterfly_blade_timo_boll_alc_1-1.png]]></wp:attachment_url>
-											<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attached_file]]></wp:meta_key>
-		<wp:meta_value><![CDATA[2022/10/butterfly_blade_timo_boll_alc_1-1.png]]></wp:meta_value>
-		</wp:postmeta>
-							<wp:postmeta>
-		<wp:meta_key><![CDATA[_wp_attachment_metadata]]></wp:meta_key>
-		<wp:meta_value><![CDATA[a:6:{s:5:"width";i:611;s:6:"height";i:1021;s:4:"file";s:45:"2022/10/butterfly_blade_timo_boll_alc_1-1.png";s:8:"filesize";i:824287;s:5:"sizes";a:2:{s:6:"medium";a:5:{s:4:"file";s:45:"butterfly_blade_timo_boll_alc_1-1-180x300.png";s:5:"width";i:180;s:6:"height";i:300;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:57445;}s:9:"thumbnail";a:5:{s:4:"file";s:45:"butterfly_blade_timo_boll_alc_1-1-150x150.png";s:5:"width";i:150;s:6:"height";i:150;s:9:"mime-type";s:9:"image/png";s:8:"filesize";i:28149;}}s:10:"image_meta";a:12:{s:8:"aperture";s:1:"0";s:6:"credit";s:0:"";s:6:"camera";s:0:"";s:7:"caption";s:0:"";s:17:"created_timestamp";s:1:"0";s:9:"copyright";s:0:"";s:12:"focal_length";s:1:"0";s:3:"iso";s:1:"0";s:13:"shutter_speed";s:1:"0";s:5:"title";s:0:"";s:11:"orientation";s:1:"0";s:8:"keywords";a:0:{}}}]]></wp:meta_value>
-		</wp:postmeta>
-							</item>
 				</channel>
 </rss>
 	
