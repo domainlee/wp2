@@ -61,4 +61,22 @@ if ( class_exists( 'ACF' ) ) {
         ));
     }
 
+    function save_options($post_id) {
+        if($post_id === 'options') {
+            global $wpdb;
+            $query_string = "SELECT * FROM {$wpdb->prefix}options  WHERE option_name LIKE '%options_%'";
+            $options = $wpdb->get_results($wpdb->prepare($query_string));
+            if(!empty($options)) {
+                foreach ($options as $k => $v) {
+                    $value = json_decode(json_encode($v), true);
+                    unset($value['option_id']);
+                    unset($value['autoload']);
+                    $options[$k] = $value;
+                }
+                file_put_contents(get_template_directory() . '/inc/demos/classic/options.txt', json_encode($options));
+            }
+        }
+    }
+    add_action('acf/save_post', 'save_options', 20);
+
 }

@@ -381,7 +381,7 @@
         // action
         button.click(function () {
             let theme = localStorage.getItem('data-theme');
-            if(theme === 'dark') {
+            if(theme === 'mode-dark') {
                 to_light();
             } else {
                 to_dark();
@@ -390,13 +390,13 @@
 
         // to light
         function to_light(){
-            $('html').attr("data-theme", "light");
-            localStorage.setItem("data-theme", "light")
+            $('html').attr("data-theme", "mode-light");
+            localStorage.setItem("data-theme", "mode-light")
         }
         // to dark
         function to_dark(){
-            $('html').attr("data-theme", "dark");
-            localStorage.setItem("data-theme", "dark")
+            $('html').attr("data-theme", "mode-dark");
+            localStorage.setItem("data-theme", "mode-dark")
         }
     }
 

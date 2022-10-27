@@ -119,8 +119,8 @@ if ( ! function_exists( 'cr_site_branding' ) ) :
  * @since 2.9
  */
 function cr_site_branding() {
-    $logo_dark = get_field('logo_option_dark', 'option');
-    $logo_light = get_field('logo_option_light', 'option');
+    $logo_dark = get_field('options_logo_dark', 'option');
+    $logo_light = get_field('options_logo_light', 'option');
 ?>
     <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
         <h1 class="header__logo m-0">
@@ -170,8 +170,8 @@ if ( ! function_exists( 'cr_footer_branding' ) ) :
      * @since 2.9
      */
     function cr_footer_branding() {
-        $logo_dark = get_field('logo_option_dark', 'option');
-        $logo_light = get_field('logo_option_light', 'option');
+        $logo_dark = get_field('options_logo_light', 'option');
+        $logo_light = get_field('options_logo_dark', 'option');
         ?>
             <?php if (!$logo_dark || !$logo_light):?>
                 <img class="mode-light" src="<?php echo get_template_directory_uri(); ?>/assets/img/logo.png" alt="logo" />
@@ -191,16 +191,16 @@ if ( ! function_exists( 'cr_footer_social' ) ) :
      * @since 2.9
      */
     function cr_footer_social() {
-            $social_list = get_field('social_list', 'option');
-            $fb_url = get_field('fb_url', 'option');
-            $google_url = get_field('google_url', 'option');
-            $twitter_url = get_field('twitter_url', 'option');
-            $youtube_url = get_field('youtube_url', 'option');
-            $instagram_url = get_field('instagram_url', 'option');
-            $flickr_url = get_field('flickr_url', 'option');
-            $tumblr_url = get_field('tumblr_url', 'option');
-            $pinterest_url = get_field('pinterest_url', 'option');
-            $slack_url = get_field('slack_url', 'option');
+            $social_list = get_field('options_social_list', 'option');
+            $fb_url = get_field('options_fb_url', 'option');
+            $google_url = get_field('options_google_url', 'option');
+            $twitter_url = get_field('options_twitter_url', 'option');
+            $youtube_url = get_field('options_youtube_url', 'option');
+            $instagram_url = get_field('options_instagram_url', 'option');
+            $flickr_url = get_field('options_flickr_url', 'option');
+            $tumblr_url = get_field('options_tumblr_url', 'option');
+            $pinterest_url = get_field('options_pinterest_url', 'option');
+            $slack_url = get_field('options_slack_url', 'option');
         ?>
         <div class="footer__social my-3 my-md-0">
             <ul class="social justify-content-center justify-content-md-start">
@@ -213,15 +213,15 @@ if ( ! function_exists( 'cr_footer_social' ) ) :
                         }
                     endforeach; ?>
                 <?php endif; ?>
-                    <li class="li-facebook <?php echo !empty($social_default['fb']) ? $social_default['fb']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Facebook"> <i class="fa fa-facebook-f"></i></a></li>
-                    <li class="li-google <?php echo !empty($social_default['gg']) ? $social_default['gg']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Google"> <i class="fa fa-google"></i></a></li>
-                    <li class="li-twitter <?php echo !empty($social_default['yt']) ? $social_default['yt']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
-                    <li class="li-youtube <?php echo !empty($social_default['tw']) ? $social_default['tw']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Youtube"> <i class="fa fa-youtube"></i></a></li>
-                    <li class="li-instagram <?php echo !empty($social_default['in']) ? $social_default['in']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Instagram"> <i class="fa fa-instagram"></i></a></li>
-                    <li class="li-flickr <?php echo !empty($social_default['fl']) ? $social_default['fl']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Flickr"> <i class="fa fa-flickr"></i></a></li>
-                    <li class="li-tumblr <?php echo !empty($social_default['tu']) ? $social_default['tu']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Tumblr"> <i class="fa fa-tumblr"></i></a></li>
-                    <li class="li-pinterest <?php echo !empty($social_default['pi']) ? $social_default['pi']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Pinterest"> <i class="fa fa-pinterest-p"></i></a></li>
-                    <li class="li-slack <?php echo !empty($social_default['sl']) ? $social_default['sl']:''; ?>"> <a class="ms-1 ms-md-2" href="#" target="_blank" rel="alternate" title="Slack"> <i class="fa fa-slack"></i></a></li>
+                    <li class="li-facebook <?php echo !empty($social_default['fb']) ? $social_default['fb']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $fb_url ? $fb_url:'#' ?>" target="_blank" rel="alternate" title="Facebook"> <i class="fa fa-facebook-f"></i></a></li>
+                    <li class="li-google <?php echo !empty($social_default['gg']) ? $social_default['gg']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $google_url ? $google_url:'#' ?>" target="_blank" rel="alternate" title="Google"> <i class="fa fa-google"></i></a></li>
+                    <li class="li-twitter <?php echo !empty($social_default['yt']) ? $social_default['yt']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $twitter_url ? $twitter_url:'#' ?>" target="_blank" rel="alternate" title="Twitter"> <i class="fa fa-twitter"></i></a></li>
+                    <li class="li-youtube <?php echo !empty($social_default['tw']) ? $social_default['tw']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $youtube_url ? $youtube_url:'#' ?>" target="_blank" rel="alternate" title="Youtube"> <i class="fa fa-youtube"></i></a></li>
+                    <li class="li-instagram <?php echo !empty($social_default['in']) ? $social_default['in']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $instagram_url ? $instagram_url:'#' ?>" target="_blank" rel="alternate" title="Instagram"> <i class="fa fa-instagram"></i></a></li>
+                    <li class="li-flickr <?php echo !empty($social_default['fl']) ? $social_default['fl']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $flickr_url ? $flickr_url:'#' ?>" target="_blank" rel="alternate" title="Flickr"> <i class="fa fa-flickr"></i></a></li>
+                    <li class="li-tumblr <?php echo !empty($social_default['tu']) ? $social_default['tu']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $tumblr_url ? $tumblr_url:'#' ?>" target="_blank" rel="alternate" title="Tumblr"> <i class="fa fa-tumblr"></i></a></li>
+                    <li class="li-pinterest <?php echo !empty($social_default['pi']) ? $social_default['pi']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $pinterest_url ? $pinterest_url:'#' ?>" target="_blank" rel="alternate" title="Pinterest"> <i class="fa fa-pinterest-p"></i></a></li>
+                    <li class="li-slack <?php echo !empty($social_default['sl']) ? $social_default['sl']:''; ?>"> <a class="ms-1 ms-md-2" href="<?php echo $slack_url ? $slack_url:'#' ?>" target="_blank" rel="alternate" title="Slack"> <i class="fa fa-slack"></i></a></li>
             </ul>
         </div>
         <?php

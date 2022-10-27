@@ -66,11 +66,11 @@ html {
     --bg-social-icon: #f5f0d6;
 }
 
-html[data-theme='dark'] {
-    .light {
+html[data-theme='mode-dark'] {
+    .mode-light {
         display: none;
     }
-    .dark {
+    .mode-dark {
         display: inline-block;
     }
     // init

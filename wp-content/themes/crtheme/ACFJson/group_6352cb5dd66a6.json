@@ -21,7 +21,7 @@
         {
             "key": "field_6352cb5ddaaa6",
             "label": "Social",
-            "name": "social_list",
+            "name": "options_social_list",
             "type": "checkbox",
             "instructions": "",
             "required": 0,
@@ -52,7 +52,7 @@
         {
             "key": "field_6352cb5ddaaae",
             "label": "Facebook URL",
-            "name": "fb_url",
+            "name": "options_fb_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -79,7 +79,7 @@
         {
             "key": "field_6352cb5ddaab4",
             "label": "Google URL",
-            "name": "google_url",
+            "name": "options_google_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -106,7 +106,7 @@
         {
             "key": "field_6352cb5ddaabc",
             "label": "Twitter URL",
-            "name": "twitter_url",
+            "name": "options_twitter_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -133,7 +133,7 @@
         {
             "key": "field_6352cb5ddaac2",
             "label": "Youtube URL",
-            "name": "youtube_url",
+            "name": "options_youtube_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -160,7 +160,7 @@
         {
             "key": "field_6352cb5ddaace",
             "label": "Instagram URL",
-            "name": "instagram_url",
+            "name": "options_instagram_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -187,7 +187,7 @@
         {
             "key": "field_6352cb5ddaadc",
             "label": "Flickr URL",
-            "name": "flickr_url",
+            "name": "options_flickr_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -214,7 +214,7 @@
         {
             "key": "field_6352cb5ddaafa",
             "label": "Tumblr URL",
-            "name": "tumblr_url",
+            "name": "options_tumblr_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -241,7 +241,7 @@
         {
             "key": "field_6352cb5ddab06",
             "label": "Pinterest URL",
-            "name": "pinterest_url",
+            "name": "options_pinterest_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -268,7 +268,7 @@
         {
             "key": "field_6352cb5ddab0b",
             "label": "Slack URL",
-            "name": "slack_url",
+            "name": "options_slack_url",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -311,5 +311,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1666627614
+    "modified": 1666799729
 }

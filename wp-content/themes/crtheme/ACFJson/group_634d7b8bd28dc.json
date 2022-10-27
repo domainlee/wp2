@@ -21,7 +21,7 @@
         {
             "key": "field_634d7dd44fa3f",
             "label": "Logo (mode light)",
-            "name": "logo_option_light",
+            "name": "options_logo_light",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -45,7 +45,7 @@
         {
             "key": "field_634d7b8cb88a7",
             "label": "Logo (mode dark)",
-            "name": "logo_option_dark",
+            "name": "options_logo_dark",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -69,7 +69,7 @@
         {
             "key": "field_634d7badb88a8",
             "label": "Favicon",
-            "name": "favicon_option",
+            "name": "options_favicon",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -109,5 +109,5 @@
     "active": true,
     "description": "",
     "show_in_rest": 0,
-    "modified": 1666627592
+    "modified": 1666799587
 }

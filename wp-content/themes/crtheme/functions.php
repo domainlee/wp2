@@ -9,8 +9,8 @@ require_once get_parent_theme_file_path( '/inc/admin/admin.php' );
 // since 2.8
 require_once get_parent_theme_file_path( '/inc/header.php' );
 
-require_once get_parent_theme_file_path( '/inc/fonts.php' );
-require_once get_parent_theme_file_path( '/inc/google-fonts.php' );
+//require_once get_parent_theme_file_path( '/inc/fonts.php' );
+//require_once get_parent_theme_file_path( '/inc/google-fonts.php' );
 
 
 /**

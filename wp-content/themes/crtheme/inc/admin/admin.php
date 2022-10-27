@@ -151,12 +151,27 @@ class Wi_Admin
                 if ( ! empty( $nav_menu_locations ) ) {
                     set_theme_mod( 'nav_menu_locations', $nav_menu_locations );
                 }
-                
-                update_option( 'show_on_front', 'posts' );
+
+                // Assign front page and posts page (blog page).
+                $front_page_id = get_page_by_title( 'Home Page' );
+//                $blog_page_id  = get_page_by_title( 'Blog' );
+
+                update_option( 'show_on_front', 'page' );
+                update_option( 'page_on_front', $front_page_id->ID );
+//                update_option( 'page_for_posts', $blog_page_id->ID );
                 
             }
             
         } // foreach
+
+        // update options
+        $options = json_decode(file_get_contents(get_template_directory() . '/inc/demos/classic/options.txt'));
+        if(!empty($options)) {
+            foreach ($options as $v) {
+                $value = json_decode(json_encode($v), true);
+                update_option( $value['option_name'], $value['option_value'], 'no' );
+            }
+        }
         
     }
     
