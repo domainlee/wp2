@@ -848,7 +848,12 @@ class WXRImporter extends \WP_Importer {
 			$remote_url = ! empty( $data['attachment_url'] ) ? $data['attachment_url'] : $data['guid'];
 			$post_id = $this->process_attachment( $postdata, $meta, $remote_url );
 		} else {
-			$post_id = wp_insert_post( $postdata, true );
+//			$post_id = wp_insert_post( $postdata, true );
+            global $wpdb;
+            unset($postdata['import_id']);
+            $wpdb->insert($wpdb->prefix.'posts', $postdata);
+            $post_id = $wpdb->insert_id;
+
 			do_action( 'wp_import_insert_post', $post_id, $original_id, $postdata, $data );
 		}
 
