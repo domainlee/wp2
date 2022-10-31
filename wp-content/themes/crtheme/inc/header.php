@@ -151,8 +151,8 @@ function cr_header_searchbox() {
         <div class="container">
         
             <form role="search" method="get" action="<?php echo home_url();?>" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction">
-                <input type="text" name="s" class="s" value="<?php echo get_search_query();?>" placeholder="<?php _e('Type & hit enter...','wi');?>" />
-                <button class="submit" role="button" title="<?php _e('Go','wi');?>"><span><?php _e('Go','wi');?></span></button>
+                <input type="text" name="s" class="s" value="<?php echo get_search_query();?>" placeholder="<?php _e('Type & hit enter...','cr');?>" />
+                <button class="submit" role="button" title="<?php _e('Go','wi');?>"><span><?php _e('Go','cr');?></span></button>
             </form>
             
         </div>
