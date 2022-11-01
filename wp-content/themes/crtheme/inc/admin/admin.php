@@ -167,7 +167,6 @@ class Wi_Admin
         // update options
         $options = json_decode(file_get_contents(get_template_directory() . '/inc/demos/classic/options.txt'));
         if(!empty($options)) {
-//            $options = wp_slash( $options );
             foreach ($options as $v) {
                 $v = (array)$v;
                 update_option( trim($v['option_name']), maybe_unserialize($v['option_value']), 'yes' );
