@@ -170,7 +170,7 @@ class Wi_Admin
 //            $options = wp_slash( $options );
             foreach ($options as $v) {
                 $v = (array)$v;
-                update_option( trim($v['option_name']), wp_unslash($v['option_value']), 'yes' );
+                update_option( trim($v['option_name']), maybe_unserialize($v['option_value']), 'yes' );
             }
         }
         
