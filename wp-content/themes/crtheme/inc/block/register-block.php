@@ -9,7 +9,7 @@ if ( class_exists( 'ACF' ) ) {
                 'title'             => __('About'),
                 'description'       => __('A custom about block.'),
                 'render_template'   => 'template-parts/blocks/about/about.php',
-                'enqueue_style'     => get_template_directory_uri() . '/assets/build/css/main.min.css',
+                'enqueue_style'     => get_template_directory_uri() . '/assets/build/css/about.min.css',
                 'enqueue_script'    => get_template_directory_uri() . '/template-parts/blocks/about/index.js',
 //                'enqueue_script'    => get_template_directory_uri() . '/assets/build/js/main.bundle.js',
                 'category'          => 'media',
