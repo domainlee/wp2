@@ -1,0 +1,200 @@
+
+/** 5. Start My Resume **/
+.my-resume {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  background-color: var(--bg-section);
+  color: var(--text);
+  z-index: 1;
+  &:before {
+    content: '';
+    position: absolute;
+    top: 20%;
+    right: 25%;
+    width: 300px;
+    height: 300px;
+    background-color: var(--bg);
+    border-radius: 50%;
+    z-index: -1;
+  }
+  .my-resume__item {
+    .my-resume__skill--item {
+      margin: 0 0 15px;
+      padding: 10px 0;
+      display: flex;
+      align-items: center;
+      > label {
+        margin: 0;
+        color: var(--text);
+        width: 160px;
+      }
+      > div {
+        width: 100%;
+        height: 10px;
+        background-color: var(--bg-resume-skill);
+        background-size: 3px;
+        position: relative;
+        border-radius: 5px;
+        > div {
+          display: block;
+          height: 10px;
+          width: 0;
+          background-color: #f4eed0;
+          transition-delay: 1s;
+          transition: width 1.5s ease;
+          border-radius: 5px;
+        }
+        .count {
+          position: absolute;
+          top: -25px;
+          right: 0;
+          opacity: 0;
+          transition-delay: 1s;
+          transition: opacity 1s ease;
+          font-weight: 400;
+          font-size: 14px;
+          color: var(--text);
+        }
+      }
+      &.is-on {
+        @for $i from 0 through 100 {
+          .width-#{$i + 10} {
+            width: #{$i+10}#{"%"};
+          }
+        }
+        .count {
+          opacity: 1;
+        }
+      }
+    }
+
+    .education__list {
+      .education__item {
+        margin: 0 0 30px;
+        .education__date {
+          margin: 0 0 5px;
+          font-weight: 500;
+          font-size: 16px;
+        }
+        .education__name {
+          margin: 0 0 5px;
+          font-size: 16px;
+          p {
+            margin: 0 0 5px;
+          }
+        }
+        .education__subname {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .experience__list {
+      .experience__item {
+        margin: 0 0 30px;
+        .experience__date {
+          margin: 0 0 5px;
+          font-weight: 500;
+          font-size: 16px;
+        }
+        .experience__company {
+          margin: 0 0 5px;
+          font-size: 16px;
+        }
+        .experience__position {
+          margin: 0 0 5px;
+          font-size: 16px;
+        }
+        .experience__description {
+          font-size: 16px;
+        }
+      }
+    }
+
+    .awards__list {
+      .awards__item {
+        margin: 0 0 30px;
+        .awards__date {
+          margin: 0 0 5px;
+          font-weight: 500;
+          font-size: 16px;
+        }
+        .awards__name {
+          margin: 0 0 5px;
+          font-size: 16px;
+        }
+        .awards__description {
+          font-size: 16px;
+        }
+      }
+    }
+    .heading-default__small {
+      &:after {
+        margin: 5px 0 0;
+        content: '';
+        width: 65px;
+        height: 10px;
+        display: block;
+        background-image: var(--bg-small);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+    &:nth-child(1) {
+      .heading-default__small {
+        &:after {
+
+        }
+      }
+    }
+    &:nth-child(2) {
+      .heading-default__small {
+        &:after {
+          background-image: url('../../img/bg_resume_heading_small-2.png');
+        }
+      }
+    }
+    &:nth-child(3) {
+      .heading-default__small {
+        &:after {
+          background-image: url('../../img/bg_resume_heading_small-3.png');
+        }
+      }
+    }
+    &:nth-child(4) {
+      .heading-default__small {
+        &:after {
+          background-image: url('../../img/bg_resume_heading_small-4.png');
+        }
+      }
+    }
+
+  }
+}
+
+.highlight {
+  margin: 0 0 0 8px;
+  border-left: 1px dashed #a0a09d;
+  .highlight__item {
+    padding: 0 0 0 32px;
+    position: relative;
+    &:before {
+      content: "";
+      width: 20px;
+      height: 20px;
+      background-image: url('../../img/dotter.png');
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: inline-block;
+      position: absolute;
+      left: -10px;
+      top: 3px;
+      opacity: 1;
+      transition: background-color .5s ease;
+      z-index: 2;
+    }
+  }
+}
+
+/** 5. End My Resume **/

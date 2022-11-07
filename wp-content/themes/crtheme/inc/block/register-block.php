@@ -28,7 +28,7 @@ if ( class_exists( 'ACF' ) ) {
                 'title'             => __('Resume'),
                 'description'       => __('A custom resume block.'),
                 'render_template'   => 'template-parts/blocks/resume/resume.php',
-                'enqueue_style'     => get_template_directory_uri() . '/assets/build/css/main.min.css',
+                'enqueue_style'     => get_template_directory_uri() . '/assets/build/css/resume.min.css',
                 'enqueue_script'    => get_template_directory_uri() . '/template-parts/blocks/resume/index.js',
                 'category'          => 'formatting',
             ));
