@@ -103,7 +103,7 @@ class Wi_Admin
          */
         add_filter( 'pt-ocdi/import_files', array( $this, 'import_files' ) );
         add_action( 'pt-ocdi/after_import', array( $this, 'after_import_setup' ) );
-        
+        add_action( 'enqueue_block_editor_assets', array($this, 'add_gutenberg_assets') );
     }
     
     /**
@@ -450,6 +450,10 @@ class Wi_Admin
         $jsdata = apply_filters( 'wiadminjs', array() );
         wp_localize_script( 'wi-admin', 'WITHEMES_ADMIN' , $jsdata );
         
+    }
+
+    function add_gutenberg_assets() {
+        wp_enqueue_style('main', get_template_directory_uri() . '/assets/build/css/main.min.css', array(), '1.1', 'all');
     }
     
     /**
