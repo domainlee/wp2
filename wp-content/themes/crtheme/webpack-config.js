@@ -20,6 +20,8 @@ const config = {
         '../css/main': [CSS_DIR + '/main.scss', NODE_MODULES + '/font-awesome/scss/font-awesome.scss'],
         '../css/about': [CSS_DIR + '/block/about.scss'],
         '../css/resume': [CSS_DIR + '/block/resume.scss'],
+        '../css/service': [CSS_DIR + '/block/service.scss'],
+        '../css/project': [CSS_DIR + '/block/project.scss'],
     },
     output : {
         filename : '[name].bundle.js',

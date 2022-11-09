@@ -1,0 +1,124 @@
+@import "../gradient";
+@import "../color-primary";
+
+/** 6. Start My Service **/
+.my-service {
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--bg);
+  .my-service__inner {
+    .my-service__left {
+      padding: 0 30px 0 0;
+      color: var(--text);
+      .my-service__left--heading {
+        margin: 0 0 15px;
+        font-size: 36px;
+        font-weight: 700;
+    }
+      .my-service__left--intro {
+        &:after {
+          margin: 30px 0;
+          content: '';
+          width: 132px;
+          height: 30px;
+          display: block;
+          background-image: url("../../img/bg_serivce_left.png");
+          background-size: contain;
+          background-repeat: no-repeat;
+      }
+    }
+      .my-service__left--statistical {
+        margin: 0 0 30px 0;
+        flex-direction: column;
+        display: flex;
+        strong {
+          margin: 0 0 5px;
+          font-weight: 700;
+          font-size: 18px;
+      }
+    }
+  }
+    .my-service__right {
+      .my-service__list {
+        margin-left: -15px;
+        margin-right: -15px;
+        display: flex;
+        flex-flow: column wrap;
+        max-height: 750px;
+        .my-service__item {
+          margin: 0 0 30px;
+          padding: 0 15px;
+          width: 50%;
+
+          .my-service__item--inner {
+            padding: 35px;
+            border-radius: 5px;
+            border: 1px solid var(--bg-service);
+            background-color: var(--bg-section);
+            color: var(--text);
+            transition: all 0.5s ease;
+            i {
+              font-size: 24px;
+              color: var(--text-main);
+              width: 60px;
+              height: 60px;
+              border-radius: 50%;
+              background-color: #DDD;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+          }
+            .my-service__title {
+              margin: 15px 0;
+              font-size: 18px;
+              letter-spacing: 1px;
+          }
+            .my-service__intro {
+
+          }
+        }
+          &:hover {
+            .my-service__item--inner {
+              box-shadow: 0 10px 20px 2px rgb(0 0 0 / 5%);
+          }
+        }
+          &:nth-child(1) {
+            margin: 50px 0 30px;
+            .my-service__item--inner {
+              i {
+                background-color: $color-black;
+                color: $color-white;
+            }
+          }
+        }
+          &:nth-child(2) {
+            .my-service__item--inner {
+              i {
+                @extend .bg-green-gradient;
+                color: $color-white;
+            }
+          }
+        }
+          &:nth-child(3) {
+            .my-service__item--inner {
+              i {
+                @extend .bg-orange-gradient;
+                color: $color-white;
+            }
+          }
+        }
+          &:nth-child(4) {
+            .my-service__item--inner {
+              i {
+                @extend .bg-blue-gradient;
+                color: $color-white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+}
+/** 6. End My Service **/

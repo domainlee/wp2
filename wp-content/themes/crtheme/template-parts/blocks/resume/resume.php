@@ -1,18 +1,12 @@
 <?php
 
 /**
- * Team Member block
- *
- * @package      ClientName
- * @author       Bill Erickson
- * @since        1.0.0
- * @license      GPL-2.0+
+ * Resume Block
  **/
 
 $resume_heading = get_field('resume_heading');
 $resume_heading_sub = get_field('resume_heading_sub');
 $resume_list = get_field('resume_list');
-//print_r($resume_list);
 ?>
 <!-- start my resume -->
 <section id="my-resume" class="my-resume ">
@@ -42,9 +36,9 @@ $resume_list = get_field('resume_list');
                                 <div class="col-12 col-md-6 ps-2 <?php echo ($c%2 ? 'pe-md-4 pe-lg-5':'ps-md-4 ps-lg-5') ?> my-resume__item <?php echo $c == 1 || $c == 2 ? 'mb-4':''; ?>">
                                     <h3 class="heading-default__small" data-viewport="opacity"><i class="icofont-education"></i><?php echo $i['resume_item_heading'] ?></h3>
                                     <?php if(!empty($i['resume_type_text_list'])): ?>
-                                    <div class="education__list highlight">
+                                    <div class="education__list timeline">
                                         <?php foreach ($i['resume_type_text_list'] as $tl): ?>
-                                        <div class="education__item highlight__item" data-viewport="opacity">
+                                        <div class="education__item timeline__item" data-viewport="opacity">
                                             <div class="education__date"><?php echo $tl['resume_one_year'] ?></div>
                                             <div class="education__name"><?php echo $tl['resume_one_description'] ?></div>
                                         </div>

@@ -32,6 +32,25 @@ if ( class_exists( 'ACF' ) ) {
                 'enqueue_script'    => get_template_directory_uri() . '/template-parts/blocks/resume/index.js',
                 'category'          => 'formatting',
             ));
+
+            acf_register_block_type(array(
+                'name'              => 'service',
+                'title'             => __('Service'),
+                'description'       => __('A custom service block.'),
+                'render_template'   => 'template-parts/blocks/service/service.php',
+                'enqueue_style'     => get_template_directory_uri() . '/assets/build/css/service.min.css',
+                'category'          => 'formatting',
+            ));
+
+            acf_register_block_type(array(
+                'name'              => 'project',
+                'title'             => __('Project'),
+                'description'       => __('A custom project block.'),
+                'render_template'   => 'template-parts/blocks/project/project.php',
+                'enqueue_style'     => get_template_directory_uri() . '/assets/build/css/project.min.css',
+                'enqueue_script'    => get_template_directory_uri() . '/template-parts/blocks/project/index.js',
+                'category'          => 'formatting',
+            ));
         }
     }
 

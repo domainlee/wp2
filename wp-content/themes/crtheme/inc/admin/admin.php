@@ -454,6 +454,7 @@ class Wi_Admin
 
     function add_gutenberg_assets() {
         wp_enqueue_style('main', get_template_directory_uri() . '/assets/build/css/main.min.css', array(), '1.1', 'all');
+        wp_enqueue_script( 'lazy', get_template_directory_uri() . '/assets/js/jquery.lazy.min.js', array( ), '1.1', true );
     }
     
     /**
