@@ -466,13 +466,13 @@ class Wi_Admin
     
         $jsdata[ 'l10n' ] =  array(
         
-            'choose_image' => esc_html__( 'Choose Image', 'wi' ),
-            'change_image' => esc_html__( 'Change Image', 'wi' ),
-            'upload_image' => esc_html__( 'Upload Image', 'wi' ),
+            'choose_image' => esc_html__( 'Choose Image', 'cr' ),
+            'change_image' => esc_html__( 'Change Image', 'cr' ),
+            'upload_image' => esc_html__( 'Upload Image', 'cr' ),
             
-            'choose_images' => esc_html__( 'Choose Images', 'wi' ),
-            'change_images' => esc_html__( 'Change Images', 'wi' ),
-            'upload_images' => esc_html__( 'Upload Images', 'wi' ),
+            'choose_images' => esc_html__( 'Choose Images', 'cr' ),
+            'change_images' => esc_html__( 'Change Images', 'cr' ),
+            'upload_images' => esc_html__( 'Upload Images', 'cr' ),
         
         );
         
@@ -494,17 +494,17 @@ class Wi_Admin
             
             'id' => 'page-options',
             'screen' => array( 'page' ),
-            'title' => esc_html__( 'Settings', 'wi' ),
+            'title' => esc_html__( 'Settings', 'cr' ),
             'fields' => array(
                 
                 array(
                     'id' => 'column_layout',
-                    'name' => esc_html__( 'Column Layout', 'wi' ),
+                    'name' => esc_html__( 'Column Layout', 'cr' ),
                     'type' => 'select',
                     'options' => array(
-                        '' => esc_html__( 'Default', 'wi' ),
-                        'single-column' => esc_html__( 'Single-column', 'wi' ),
-                        'two-column' => esc_html__( 'Two-column', 'wi' ),
+                        '' => esc_html__( 'Default', 'cr' ),
+                        'single-column' => esc_html__( 'Single-column', 'cr' ),
+                        'two-column' => esc_html__( 'Two-column', 'cr' ),
                     ),
                     'std' => '',
                 ),
